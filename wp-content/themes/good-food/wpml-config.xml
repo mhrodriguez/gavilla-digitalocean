@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Good Food
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_good-food_header">
+            <key name="good-food_header_top_line_short_info" />
+            <key name="good-food_header_top_line_donations_but_text" />
+            <key name="good-food_header_donations_but_text" />
+            <key name="good-food_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_good-food_footer">
+            <key name="good-food_footer_html" />
+            <key name="good-food_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_good-food_single_project">
+            <key name="good-food_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_good-food_single_profile">
+            <key name="good-food_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

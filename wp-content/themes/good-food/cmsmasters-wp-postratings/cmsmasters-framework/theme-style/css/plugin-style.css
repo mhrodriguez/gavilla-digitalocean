@@ -1,0 +1,42 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Good Food
+ * @version 	1.0.0
+ * 
+ * WP-PostRating CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/*-------------------------------------------------------------------------*/
+/*	Main Styles  */
+/*-------------------------------------------------------------------------*/
+.cmsmasters_rating .cmsmasters_rating_wrap {
+	position: relative;
+}
+.cmsmasters_rating img {
+	padding-left: 3px;
+}
+.cmsmasters_rating img:first-child {
+	padding-left: 0;
+}
+.cmsmasters_rating .post-ratings-loading {
+	height: auto;
+	font-size: 0;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: auto;
+}
+/*-------------------------------------------------------------------------*/
+/*	RTL Styles  */
+/*-------------------------------------------------------------------------*/
+.rtl .cmsmasters_rating img {
+	padding-right: 3px;
+	padding-left: 0;
+}
+.rtl .cmsmasters_rating img:first-child {
+	padding-right: 0;
+}

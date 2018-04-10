@@ -1,0 +1,722 @@
+ul.mtree {
+    /*opacity: 0;*/
+    margin-left: 0;
+    position: relative;
+}
+
+ul.mtree ul {
+    margin-left: 1em;
+}
+
+ul.mtree li {
+    list-style: none;
+}
+
+ul.mtree a {
+    display: block;
+}
+
+ul.mtree li.mtree-node > a {
+    font-weight: normal;
+}
+
+ul.mtree a {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+ul.mtree.default li {
+    font-size: 14px;
+}
+
+ul.mtree.default a {
+    padding: 0 0 0 15px;
+}
+
+ul.mtree.default a:hover {
+    text-decoration: underline;
+}
+
+ul.mtree.default li.mtree-node:before {
+    margin-left: 0;
+    color: #777;
+}
+
+/*ul.mtree.default li.mtree-open:before {
+  content: '-';
+}
+ul.mtree.default li.mtree-closed:before {
+  content: '+';
+}*/
+ul.mtree.default ul > li:first-child {
+    margin-top: .1em;
+}
+
+ul.mtree.default ul > li:last-child {
+    margin-bottom: .3em;
+}
+
+ul.mtree.default ul a {
+}
+
+ul.mtree.default li > a:hover, ul.mtree.default li.current-cat > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li.current-cat-parent > .children {
+    height: auto !important;
+    display: block !important;
+}
+
+.wcc_block {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.wcc_block ul.mtree li:before {
+    border: 1px solid #f87c85;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    left: 8px;
+    position: relative;
+    top: 0;
+    transition: border 0.7s ease 0s;
+    width: 10px;
+    z-index: 9999;
+    margin: 0 11px 0 0;
+    background: #f87c85;
+}
+
+.wcc_block ul.mtree li::after {
+    background: #2c3e50 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+
+.wcc_block ul.mtree li a:hover {
+    text-decoration: none !important;
+    font-weight: normal;
+}
+
+.wcc_block ul.mtree li ul {
+    margin: 0px;
+    padding: 0;
+}
+
+.wcc_block ul.mtree li:checked ~ label[for=label-1], .wcc_block ul.mtree li:checked ~ label[for=label-2], .wcc_block ul.mtree li:checked ~ label[for=label-3], .wcc_block ul.mtree li:checked ~ label[for=label-4], .wcc_block ul.mtree li:checked ~ label[for=label-5] {
+    background: #2C3E50;
+    border-bottom: 1px solid #34495E;
+    color: #1ABC9C;
+}
+
+.wcc_block ul.mtree > li:first-child {
+    border-right: 8px solid #f87c85;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(2) {
+    border-right: 8px solid #feb47f;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(3) {
+    border-right: 8px solid #b985ea;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(4) {
+    border-right: 8px solid #f87c85;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(5) {
+    border-right: 8px solid #feb47f;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(2n+2) {
+    border-right: 8px solid #feb47f;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(2n+3) {
+    border-right: 8px solid #b985ea;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(2n+4) {
+    border-right: 8px solid #f87c85;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:nth-child(2n+5) {
+    border-right: 8px solid #feb47f;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li:last-child {
+    border-right: 8px solid #f87c85;
+    background: #34495e !important;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree li:hover a {
+    color: #fff;
+}
+
+/*.wcc_block ul.mtree li:nth-child(5):hover{
+	background: #feb47f;
+}
+
+.wcc_block ul.mtree li:first-child:hover {
+	background: #f87c85;
+	color: #fff;
+}
+.wcc_block ul.mtree li:nth-child(2):hover {
+	background: #feb47f;
+	color: #fff;
+}
+.wcc_block ul.mtree li:nth-child(3):hover {
+	background: #b985ea;
+	color: #fff;
+}
+.wcc_block ul.mtree li:nth-child(4):hover {
+	background: #f87c85;
+}*/
+
+.wcc_block ul.mtree li:nth-child(4) {
+    border-right: 8px solid #f87c85;
+    background: #34495e;
+    border-bottom: 1px solid #fff;
+    color: #2C3E50;
+    margin: 0 0 -1px 0;
+    padding: 6px 0;
+}
+
+.wcc_block ul.mtree > li {
+    background: #34495e;
+}
+
+.wcc_block ul.mtree > li > a {
+    color: #fff;
+}
+
+.wcc_block ul.mtree li:hover ul.children li {
+    background: none !important;
+}
+
+.wcc_block ul.mtree > li {
+    background: #f4f4f2;
+}
+
+.wcc_block ul.mtree > li ul {
+    padding: 10px 0 0 0;
+}
+
+.wcc_block ul.mtree li ul li:hover a {
+    color: #fff !important;
+}
+
+.wcc_block ul.mtree li ul li a {
+    color: #fff !important;
+}
+
+.wcc_block ul.mtree li.current-cat:after {
+
+}
+
+.wcc_block ul.mtree li:hover {
+    background: #2c3e50;
+}
+
+.wcc_block ul.mtree > li:hover {
+    position: relative;
+    border: none;
+    z-index: 99999;
+}
+
+.wcc_block ul.mtree li:hover::after {
+    background: none !important;
+}
+
+.wcc_block ul.mtree li:hover ul li::after {
+    background: none !important;
+}
+
+.wcc_block ul.mtree li ul li::before {
+    border: 1px solid #feb47f;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    left: 20px;
+    margin: 0 12px 0 0;
+    position: relative;
+    top: 0;
+    transition: border 0.7s ease 0s;
+    width: 10px;
+    z-index: 9999;
+    background: #feb47f;
+}
+
+.wcc_block ul.mtree li.mtree-closed > a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #f87c85;
+    margin: 0 5px 0 0;
+    float: right;
+
+}
+
+.wcc_block ul.mtree li.mtree-open > a:after {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #f87c85;
+    margin: 0 5px 0 0;
+    float: right;
+
+}
+
+.wcc_block ul.mtree > li {
+    border-bottom: 1px solid #2c3e50 !important;
+    padding: 10px 0 !important;
+
+}
+
+.widget_product_categories h4.widgettitle {
+    background: #2c3e50 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 16px 0 16px 28px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.wcc_block ul.mtree > li {
+    display: inline-block !important;
+    width: 100%;
+}
+
+.wcc_block ul.mtree > li > a {
+    width: 100% !important;
+}
+
+.wcc_block ul.mtree > li > a {
+    padding-left: 39px;
+    margin: -22px 0 0 0;
+}
+
+.wcc_block ul.mtree li.cat-parent::before {
+    background: #b985ea none repeat scroll 0 0;
+    border: 1px solid #b985ea;
+}
+
+.wcc_block ul.mtree li ul.children li a {
+    display: inline;
+}
+
+.statics ul.mtree li ul.children li {
+    padding: 4px 0 4px 0;
+    margin: 0 0 0 20px;
+}
+
+.statics ul.mtree li ul li::before {
+    margin: 0 28px 0 0;
+
+}
+
+.wcc_block ul.mtree > li > a {
+    text-align: left !important;
+}
+
+.wcc_block ul.mtree > li::before {
+    left: -100% !important;
+    right: 100% !important;
+    margin: 0 -20px 0 0 !important;
+}
+
+.wcc_block ul.mtree > li > a {
+    margin: 0 0 0 0;
+}
+
+.wcc_block ul.mtree li.mtree-closed > a::after {
+    margin: -15px 5px 0 0;
+}
+
+.wcc_block ul.mtree > li > a::before {
+    content: none !important;
+}
+
+.wcc_block ul.mtree li ul {
+    margin: 0px 0 0 35px;
+    padding: 0;
+}
+
+.wcc_block ul.mtree li:nth-child(4) {
+    border: none !important;
+}
+
+ul.mtree.default a {
+    padding: 0 0 0 26px;
+}
+
+.wcc_block ul.mtree li ul li::before {
+    border: 1px solid #feb47f;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    left: -94%;
+    margin: 6px 0 9px 0;
+    position: relative;
+    top: -100%;
+    transition: border 0.7s ease 0s;
+    width: 10px;
+    z-index: 9999;
+    background: #feb47f;
+    right: 100%;
+}
+
+.wcc_block ul.mtree li ul li {
+    width: 100%;
+}
+
+.wcc_block ul.mtree li ul li a::after {
+    content: none !important;
+}
+
+.wcc_block ul.mtree li.mtree-closed ul li > a::after {
+    content: "";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #f87c85;
+    margin: 0 5px 0 0;
+    float: right;
+}
+
+.widget_categories li a::before, .widget_product_categories li a::before, .widget_layered_nav li a::before, .widget_archive li a::before {
+    content: none;
+}
+
+.widget_categories li a:before, .widget_product_categories li a:before, .widget_layered_nav li a:before, .widget_archive li a:before {
+    content: none !important;
+
+}
+
+.wcc_block ul.mtree > li > a {
+    text-align: left !important;
+}
+
+.wcc_block ul.mtree > li::before {
+    left: -100% !important;
+    right: 100% !important;
+    margin: 0 -20px 0 0 !important;
+}
+
+.wcc_block ul.mtree > li > a {
+    margin: 0 0 0 0;
+}
+
+.wcc_block ul.mtree li.mtree-closed > a::after {
+    margin: -15px 5px 0 0;
+}
+
+.wcc_block ul.mtree > li > a::before {
+    content: none !important;
+}
+
+.wcc_block ul.mtree li ul {
+    margin: 0px 0 0 35px;
+    padding: 0;
+}
+
+.wcc_block ul.mtree li:nth-child(4) {
+    border: none !important;
+}
+
+ul.mtree.default a {
+    padding: 0 0 0 26px;
+}
+
+.wcc_block ul.mtree li ul li::before {
+    border: 1px solid #feb47f;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    left: -94%;
+    margin: 6px 0 9px 0;
+    position: relative;
+    top: -100%;
+    transition: border 0.7s ease 0s;
+    width: 10px;
+    z-index: 9999;
+    background: #feb47f;
+    right: 100%;
+}
+
+.wcc_block ul.mtree li ul li {
+    width: 100%;
+}
+
+.wcc_block ul.mtree li ul li a::after {
+    content: none !important;
+}
+
+.wcc_block ul.mtree li.mtree-closed ul li > a::after {
+    content: "";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #f87c85;
+    margin: 0 5px 0 0;
+    float: right;
+}
+
+.widget_categories li a::before, .widget_product_categories li a::before, .widget_layered_nav li a::before, .widget_archive li a::before {
+    content: none;
+}
+
+.statics ul.mtree li ul.children li {
+
+    padding: 4px 0 4px 22px;
+    margin: 0 0 0 0;
+}
+
+.wcc_block ul.mtree li ul li::before {
+    margin: 10px 24px 10px 0;
+    top: -2px;
+}
+
+
+
+
+
+
+
+/*update css*/
+
+
+
+
+
+
+
+
+.wcc_block ul.mtree > li > a {
+    text-align: left !important;
+}
+
+.wcc_block ul.mtree > li::before {
+    left: 10px !important;
+    right: 0 !important;
+    margin: 0 -20px 0 0 !important;
+}
+.wcc_block ul.mtree > li > a {
+    margin: 0 0 0 0;
+}
+
+.wcc_block ul.mtree li.mtree-closed > a::after {
+    margin: -15px 5px 0 0;
+}
+
+
+.wcc_block ul.mtree > li > a::before {
+    content: none !important;
+}
+
+.wcc_block ul.mtree li ul {
+    margin: 0px 0 0 35px;
+    padding: 0;
+}
+
+
+.wcc_block ul.mtree li:nth-child(4){
+border:none !important;
+}
+
+ul.mtree.default a {
+    padding: 0 0 0 26px;
+}
+
+
+
+.wcc_block ul.mtree li ul li::before {
+    border: 1px solid #feb47f;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    left: -94%;
+    margin: 6px 0 9px 0;
+    position: relative;
+    top: -100%;
+    transition: border 0.7s ease 0s;
+    width: 10px;
+    z-index: 9999;
+    background: #feb47f;
+    right: 100%;
+}
+.wcc_block ul.mtree li ul li{
+    width: 100%;
+}
+
+
+.wcc_block ul.mtree li ul li a::after{
+content:none !important;
+}
+.wcc_block ul.mtree li.mtree-closed ul li > a::after {
+    content: "";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #f87c85;
+    margin: 0 5px 0 0;
+    float: right;
+}
+
+.widget_categories li a::before, .widget_product_categories li a::before, .widget_layered_nav li a::before, .widget_archive li a::before {
+    content: none;
+}
+
+
+
+.statics ul.mtree li ul.children li{
+
+padding: 4px 0 4px 22px;
+margin: 0 0 0 0;
+}
+
+
+.wcc_block ul.mtree li ul li::before {
+    margin: 10px 24px 10px 0;
+    top: -2px;
+    left: -84%;
+}
+
+
+.wcc_block ul.mtree li ul.children li a {
+  
+  
+    margin-left: 22px;
+}
+
+.wcc_block ul.mtree li ul.mtree-level-1 li::before {
+    margin: 5px 24px 5px 0 !important;
+
+}
+
+.wcc_block ul.mtree li ul li::before {
+    margin: 10px 24px 10px 0;
+    top: -1px;
+    left: -93%;
+}
+
+.wcc_block ul.mtree li ul.mtree-level-1 li::before {
+    margin: 10px 24px 10px 0;
+    top: -1px;
+    left: 0;
+}
+.wcc_block ul.mtree li ul.mtree-level-1 li a {
+    margin-left: 0 !important;
+}
+
+.wcc_block ul.mtree li ul.children li a {
+    margin-left: 0;
+}
+
+
+.wcc_block ul.mtree li ul.children li::before {
+    margin: 3px 8px 5px 0 !important;
+    top: 7px !important;
+}
+ul.mtree.default a {
+    padding: 0 0 0 0;
+}
+
+.wcc_block ul.mtree > li > a {
+    margin: -24px 0 0 0;
+}
+.wcc_block ul.mtree li.mtree-closed > a::after {
+    margin: 0px 5px 0 0;
+}
+
+.wcc_block ul.mtree li ul.children li ul.children {
+    margin: 0px 0 0 0 !important;
+}
+
+
+
+.wcc_block ul.mtree li ul.mtree-level-1 li ul.mtree-level-2{
+        margin: 0px 0 0 20px !important;
+}
+
+
+ul.mtree {
+    z-index: 1;
+}
+
+.wcc_block ul.mtree li ul.children li ul.children li::before {
+    margin: 5px 18px 5px 0 !important;
+    top: 3px !important;
+}
+
+
+.statics ul.mtree li ul li::before {
+    left: 0 !important;
+}

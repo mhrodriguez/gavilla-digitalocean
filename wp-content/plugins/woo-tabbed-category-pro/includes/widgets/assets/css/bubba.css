@@ -1,0 +1,80 @@
+.wcc_block .wcc_block ul.mtree {
+  opacity: 0;
+  margin-left: 0;
+  padding: 1.2em;
+}
+.wcc_block ul.mtree ul {
+  margin-left: 1em;
+}
+.wcc_block ul.mtree li {
+  list-style: none;
+}
+.wcc_block ul.mtree a {
+  display: block;
+}
+.wcc_block ul.mtree li.mtree-node > a {
+  font-weight: bold;
+}
+
+.wcc_block ul.mtree a {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.wcc_block ul.mtree ul {
+  margin-left: 0;
+}
+.wcc_block ul.mtree ul li {
+}
+.wcc_block ul.mtree li.mtree-node > a:after {
+  content: '›';
+  margin-left: .5em;
+  font-weight: normal;
+}
+.wcc_block ul.mtree li.mtree-node > a {
+  font-weight: bold;
+  text-transform: upperCase;
+}
+.wcc_block ul.mtree > li {
+  border-bottom: 1px solid #DDD;
+}
+.wcc_block ul.mtree > li:last-child {
+  border-bottom: none;
+}
+.wcc_block ul.mtree li:last-child > a {
+  border: none;
+}
+.wcc_block ul.mtree > li.mtree-open > a {
+  background: #DDD;
+}
+.wcc_block ul.mtree li > a:hover {
+  background: #DDD;
+}
+.wcc_block ul.mtree li.mtree-active > a {
+  background: #FFC000;
+  color: #FFF;
+}
+.wcc_block ul.mtree a {
+  padding: 7px 0px 7px 1em;
+}
+.wcc_block ul.mtree li li > a {
+  padding-left: 6px;
+}
+.wcc_block ul.mtree li li li > a {
+  padding-left: 6px;
+}
+.wcc_block ul.mtree li li li li > a {
+  padding-left: 6px;
+}
+.wcc_block ul.mtree li li li li li > a {
+  padding-left: 6px;
+}
+
+.mtree {
+    background: #EEE;
+    margin: 20px auto;
+    border-radius: 3px;
+}

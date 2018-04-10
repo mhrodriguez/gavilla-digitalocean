@@ -1,0 +1,3785 @@
+01-30-2018 @ 16:41:07 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+01-30-2018 @ 16:41:07 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 5GP4KDPWVAFZE
+    [LOCALE] => es_XC
+    [TIMESTAMP] => 2018-01-30T22:41:07Z
+    [CORRELATIONID] => 4fb89218b53a8
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 39206242
+)
+
+01-30-2018 @ 16:41:07 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [RETURNURL] => http://138.197.21.50/gavilla/
+    [CANCELURL] => http://138.197.21.50/gavilla/
+    [REQBILLINGADDRESS] => 1
+    [AMT] => 1.00
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+01-30-2018 @ 16:41:08 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2018-01-30T22:41:08Z
+    [CORRELATIONID] => 4e4ebc6e3ee59
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 43109726
+    [L_ERRORCODE0] => 11601
+    [L_SHORTMESSAGE0] => Request for billing address failed
+    [L_LONGMESSAGE0] => Billing address request is not enabled for merchant
+    [L_SEVERITYCODE0] => Error
+)
+
+01-30-2018 @ 16:42:32 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+01-30-2018 @ 16:42:32 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 5GP4KDPWVAFZE
+    [LOCALE] => es_XC
+    [TIMESTAMP] => 2018-01-30T22:42:32Z
+    [CORRELATIONID] => d2fb7510692cf
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 39206242
+)
+
+01-30-2018 @ 16:45:20 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+01-30-2018 @ 16:45:20 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 5GP4KDPWVAFZE
+    [LOCALE] => es_XC
+    [TIMESTAMP] => 2018-01-30T22:45:20Z
+    [CORRELATIONID] => eacb5c169bb4e
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 39206242
+)
+
+01-30-2018 @ 17:41:58 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => http://138.197.21.50/gavilla/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => http://138.197.21.50/gavilla/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 114
+    [PAYMENTREQUEST_0_ITEMAMT] => 114
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 57
+    [L_PAYMENTREQUEST_0_NAME1] => Aderezo de Chipotle 250 ml
+    [L_PAYMENTREQUEST_0_DESC1] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 57
+    [L_PAYMENTREQUEST_0_NAME2] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC2] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_AMT2] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+01-30-2018 @ 17:41:59 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-2UX35207YS988121G
+    [TIMESTAMP] => 2018-01-30T23:41:59Z
+    [CORRELATIONID] => 8ef003709ddea
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 43109726
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+02-04-2018 @ 08:59:57 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => http://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => http://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 5705
+    [PAYMENTREQUEST_0_ITEMAMT] => 5705
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => Aderezo César a la Parmesana 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 57
+    [L_PAYMENTREQUEST_0_NAME1] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC1] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 57
+    [L_PAYMENTREQUEST_0_NAME2] => Aderezo de Chipotle 250 ml
+    [L_PAYMENTREQUEST_0_DESC2] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_AMT2] => 57
+    [L_PAYMENTREQUEST_0_NAME3] => ADEREZO DE FINAS HIERBAS 250 ML
+    [L_PAYMENTREQUEST_0_DESC3] => 
+
+
+ADEREZO DE FINAS HIERBAS 
+Ideal para cocinar:
+
+ 	Alcachofas cocidas
+ 	Ceviche de camarón, pulpo y jaiba
+ 	Arrachera
+ 	Quesos
+ 	Ensaladas
+ 	Marinar carnes
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY3] => 1
+    [L_PAYMENTREQUEST_0_AMT3] => 57
+    [L_PAYMENTREQUEST_0_NAME4] => ADEREZO DE MOSTAZA Y MIEL 250 ML
+    [L_PAYMENTREQUEST_0_DESC4] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY4] => 1
+    [L_PAYMENTREQUEST_0_AMT4] => 57
+    [L_PAYMENTREQUEST_0_NAME5] => ADEREZO DE PEPITA 250 ML
+    [L_PAYMENTREQUEST_0_DESC5] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY5] => 1
+    [L_PAYMENTREQUEST_0_AMT5] => 57
+    [L_PAYMENTREQUEST_0_NAME6] => ADEREZO DE SOYA Y LIMÓN 250 ML
+    [L_PAYMENTREQUEST_0_DESC6] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY6] => 1
+    [L_PAYMENTREQUEST_0_AMT6] => 57
+    [L_PAYMENTREQUEST_0_NAME7] => ADEREZO DE TAMARINDO CON CHIPOTLE 250 ML
+    [L_PAYMENTREQUEST_0_DESC7] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY7] => 1
+    [L_PAYMENTREQUEST_0_AMT7] => 57
+    [L_PAYMENTREQUEST_0_NAME8] => ADEREZO DE TAMARINDO, CHÍA Y LINAZA 250 ML
+    [L_PAYMENTREQUEST_0_DESC8] => 
+
+
+ADEREZO DE TAMARINDO, CHÍA Y LINAZA  
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Pechuga de pollo asada
+ 	Camarones a la plancha
+ 	Tabla de quesos frescos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY8] => 1
+    [L_PAYMENTREQUEST_0_AMT8] => 57
+    [L_PAYMENTREQUEST_0_NAME9] => Aderezo 500ml Chipotle
+    [L_PAYMENTREQUEST_0_DESC9] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY9] => 1
+    [L_PAYMENTREQUEST_0_AMT9] => 75
+    [L_PAYMENTREQUEST_0_NAME10] => ADEREZO CÉSAR A LA PARMESANA 500 ML
+    [L_PAYMENTREQUEST_0_DESC10] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY10] => 1
+    [L_PAYMENTREQUEST_0_AMT10] => 75
+    [L_PAYMENTREQUEST_0_NAME11] => ADEREZO DE LA CASA 500 ML
+    [L_PAYMENTREQUEST_0_DESC11] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY11] => 1
+    [L_PAYMENTREQUEST_0_AMT11] => 75
+    [L_PAYMENTREQUEST_0_NAME12] => ADEREZO DE MOSTAZA Y MIEL 500 ML
+    [L_PAYMENTREQUEST_0_DESC12] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY12] => 1
+    [L_PAYMENTREQUEST_0_AMT12] => 75
+    [L_PAYMENTREQUEST_0_NAME13] => ADEREZO DE PEPITA 500 ML
+    [L_PAYMENTREQUEST_0_DESC13] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY13] => 1
+    [L_PAYMENTREQUEST_0_AMT13] => 75
+    [L_PAYMENTREQUEST_0_NAME14] => ADEREZO DE SOYA Y LIMÓN 500 ML
+    [L_PAYMENTREQUEST_0_DESC14] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY14] => 1
+    [L_PAYMENTREQUEST_0_AMT14] => 75
+    [L_PAYMENTREQUEST_0_NAME15] => ADEREZO ESENCIAS DEL CAMPO 500 ML
+    [L_PAYMENTREQUEST_0_DESC15] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY15] => 1
+    [L_PAYMENTREQUEST_0_AMT15] => 75
+    [L_PAYMENTREQUEST_0_NAME16] => ADEREZO ITALIANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC16] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY16] => 1
+    [L_PAYMENTREQUEST_0_AMT16] => 75
+    [L_PAYMENTREQUEST_0_NAME17] => ADEREZO MIEL DE AGAVE 500 ML
+    [L_PAYMENTREQUEST_0_DESC17] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY17] => 1
+    [L_PAYMENTREQUEST_0_AMT17] => 75
+    [L_PAYMENTREQUEST_0_NAME18] => ADEREZO POBLANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC18] => 
+
+
+ADEREZO POBLANO 
+Ideal para cocinar:
+
+ 	Lechugas tiernas con queso de cabra
+ 	Lasaña de verduras
+ 	Coctel de aguacate, jícama y pepino
+ 	Filetes de pescado
+ 	Huevos poché
+ 	Camarones a la plancha
+ 	Pasta
+ 	Verduras rebozadas
+ 	Ensaladas
+ 	Espárragos y queso parmesano
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY18] => 1
+    [L_PAYMENTREQUEST_0_AMT18] => 75
+    [L_PAYMENTREQUEST_0_NAME19] => SALSA ARRIERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC19] => 
+
+
+SALSA ARRIERA 
+Ideal para cocinar:
+
+ 	Huevos al gusto
+ 	Enchiladas de pollo
+ 	Puntas de bistec
+ 	Caldos y pozoles
+ 	Chilaquiles
+ 	Carnes asadas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY19] => 1
+    [L_PAYMENTREQUEST_0_AMT19] => 44
+    [L_PAYMENTREQUEST_0_NAME20] => SALSA CHILE DE ÁRBOL 360 ML
+    [L_PAYMENTREQUEST_0_DESC20] => 
+
+
+SALSA CHILE DE ÁRBOL 
+Ideal para cocinar:
+
+ 	Frijoles de la olla
+ 	Pescado a la talla
+ 	Flautas de carne
+ 	Quesadillas de flor de calabaza
+ 	Lomo enchilado al horno
+ 	Sopes de pollo
+ 	Tacos de chicharrón
+ 	Carnitas de cerdo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY20] => 1
+    [L_PAYMENTREQUEST_0_AMT20] => 44
+    [L_PAYMENTREQUEST_0_NAME21] => SALSA DE CHILE MANZANO 360 ML
+    [L_PAYMENTREQUEST_0_DESC21] => 
+
+
+SALSA DE CHILE MANZANO 
+Ideal para cocinar:
+
+ 	Tostadas de tinga con aguacate
+ 	Aguachile de camarón
+ 	Tacos de barbacoa
+ 	Ceviche de pescado
+ 	Carnitas de cerdo 
+ 	Gorditas de chicharrón
+ 	Tacos sudados
+ 	Enchiladas
+ 	Mariscos frescos  
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY21] => 1
+    [L_PAYMENTREQUEST_0_AMT21] => 44
+    [L_PAYMENTREQUEST_0_NAME22] => SALSA DE CHIPOTLE Y PILONCILLO 360 ML
+    [L_PAYMENTREQUEST_0_DESC22] => 
+
+
+SALSA DE CHIPOTLE Y PILONCILLO 
+Ideal para cocinar:
+
+ 	Quesadillas
+ 	Chilaquiles
+ 	Camarones
+ 	Papas al horno
+ 	Pechuga de pollo en fajitas
+ 	Pescado asado
+ 	Albóndigas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY22] => 1
+    [L_PAYMENTREQUEST_0_AMT22] => 44
+    [L_PAYMENTREQUEST_0_NAME23] => SALSA DE JALAPEÑO 360 ML
+    [L_PAYMENTREQUEST_0_DESC23] => 
+
+
+SALSA DE JALAPEÑO 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Enchiladas
+ 	Sopes
+ 	Huevos al gusto
+ 	Taquitos de pollo
+ 	Tamales de elote
+ 	Queso fresco
+ 	Pechugas asadas
+ 	Requesón
+ 	Arroz al vapor
+ 	Tostadas de pollo
+ 	Salpicón de res
+ 	Milanesa de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY23] => 1
+    [L_PAYMENTREQUEST_0_AMT23] => 44
+    [L_PAYMENTREQUEST_0_NAME24] => SALSA DE TRES CHILES 360 ML
+    [L_PAYMENTREQUEST_0_DESC24] => 
+
+
+SALSA DE TRES CHILES  
+Ideal para cocinar:
+
+ 	Chicharrón en salsa
+ 	Albóndigas
+ 	Sopes
+ 	Chilaquiles
+ 	Carne asada
+ 	Tacos de pollo
+ 	Enchiladas con queso
+ 	Bistec enchilado
+ 	Tamalitos de requesón
+ 	Sándwich
+ 	Pollo
+ 	Flautas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY24] => 1
+    [L_PAYMENTREQUEST_0_AMT24] => 44
+    [L_PAYMENTREQUEST_0_NAME25] => SALSA JALAPEÑO INTENSO 360 ML
+    [L_PAYMENTREQUEST_0_DESC25] => 
+
+
+SALSA JALAPEÑO INTENSO 
+Ideal para cocinar:
+
+ 	Tostadas de marlín
+ 	Carnes asadas
+ 	Camarones rebozados
+ 	Tacos
+ 	Guacamole
+ 	Pollo al horno
+ 	Callo de hacha sellado
+ 	Ribe eye a las brasas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY25] => 1
+    [L_PAYMENTREQUEST_0_AMT25] => 44
+    [L_PAYMENTREQUEST_0_NAME26] => SALSA MAÑANERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC26] => 
+
+
+SALSA MAÑANERA 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Tacos de barbacoa
+ 	Huevos al gusto
+ 	Gorditas de chicharrón o frijol
+ 	Frijoles de la olla
+ 	Sopes al comal
+ 	Pastel Moctezuma
+ 	Chalupas
+ 	Pastas
+ 	Tostadas de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY26] => 1
+    [L_PAYMENTREQUEST_0_AMT26] => 44
+    [L_PAYMENTREQUEST_0_NAME27] => Aderezo 3.9L Thai
+    [L_PAYMENTREQUEST_0_DESC27] => 
+
+
+ADEREZO THAI 
+Ideal para cocinar:
+
+ 	Vegetales crudos o cocidos
+ 	Pasta fría
+ 	Sushi
+ 	Tacos de papel arroz
+ 	Molletes
+ 	Fajitas de pollo
+ 	Pescados y mariscos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY27] => 1
+    [L_PAYMENTREQUEST_0_AMT27] => 450
+    [L_PAYMENTREQUEST_0_NAME28] => ADEREZO CÉSAR A LA PARMESANA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC28] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY28] => 1
+    [L_PAYMENTREQUEST_0_AMT28] => 450
+    [L_PAYMENTREQUEST_0_NAME29] => ADEREZO CON SOYA Y LIMÓN 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC29] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY29] => 1
+    [L_PAYMENTREQUEST_0_AMT29] => 450
+    [L_PAYMENTREQUEST_0_NAME30] => ADEREZO DE CHABACANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC30] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY30] => 1
+    [L_PAYMENTREQUEST_0_AMT30] => 300
+    [L_PAYMENTREQUEST_0_NAME31] => ADEREZO DE CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC31] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY31] => 1
+    [L_PAYMENTREQUEST_0_AMT31] => 450
+    [L_PAYMENTREQUEST_0_NAME32] => ADEREZO DE LA CASA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC32] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY32] => 1
+    [L_PAYMENTREQUEST_0_AMT32] => 450
+    [L_PAYMENTREQUEST_0_NAME33] => ADEREZO DE MOSTAZA Y MIEL 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC33] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY33] => 1
+    [L_PAYMENTREQUEST_0_AMT33] => 450
+    [L_PAYMENTREQUEST_0_NAME34] => ADEREZO DE TAMARINDO CON CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC34] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY34] => 1
+    [L_PAYMENTREQUEST_0_AMT34] => 340
+    [L_PAYMENTREQUEST_0_NAME35] => ADEREZO ESENCIAS DEL CAMPO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC35] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY35] => 1
+    [L_PAYMENTREQUEST_0_AMT35] => 450
+    [L_PAYMENTREQUEST_0_NAME36] => ADEREZO ITALIANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC36] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY36] => 1
+    [L_PAYMENTREQUEST_0_AMT36] => 300
+    [L_PAYMENTREQUEST_0_NAME37] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC37] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY37] => 1
+    [L_PAYMENTREQUEST_0_AMT37] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-04-2018 @ 08:59:58 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-58Y413492C299073T
+    [TIMESTAMP] => 2018-02-04T14:59:58Z
+    [CORRELATIONID] => 416e0b49bf2be
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 43477490
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+02-08-2018 @ 16:11:35 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => http://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => http://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 75
+    [PAYMENTREQUEST_0_ITEMAMT] => 75
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => ADEREZO ITALIANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 75
+    [L_PAYMENTREQUEST_0_NAME1] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC1] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-08-2018 @ 16:11:36 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-9AY89146G9859474Y
+    [TIMESTAMP] => 2018-02-08T22:11:36Z
+    [CORRELATIONID] => 1cdf14baeb966
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 000000
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+02-12-2018 @ 01:13:09 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 7493
+    [PAYMENTREQUEST_0_ITEMAMT] => 7493
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => Aderezo César a la Parmesana 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 57
+    [L_PAYMENTREQUEST_0_NAME1] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC1] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 57
+    [L_PAYMENTREQUEST_0_NAME2] => Aderezo de Chipotle 250 ml
+    [L_PAYMENTREQUEST_0_DESC2] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_AMT2] => 57
+    [L_PAYMENTREQUEST_0_NAME3] => ADEREZO DE FINAS HIERBAS 250 ML
+    [L_PAYMENTREQUEST_0_DESC3] => 
+
+
+ADEREZO DE FINAS HIERBAS 
+Ideal para cocinar:
+
+ 	Alcachofas cocidas
+ 	Ceviche de camarón, pulpo y jaiba
+ 	Arrachera
+ 	Quesos
+ 	Ensaladas
+ 	Marinar carnes
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY3] => 1
+    [L_PAYMENTREQUEST_0_AMT3] => 57
+    [L_PAYMENTREQUEST_0_NAME4] => ADEREZO DE MOSTAZA Y MIEL 250 ML
+    [L_PAYMENTREQUEST_0_DESC4] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY4] => 1
+    [L_PAYMENTREQUEST_0_AMT4] => 57
+    [L_PAYMENTREQUEST_0_NAME5] => ADEREZO DE PEPITA 250 ML
+    [L_PAYMENTREQUEST_0_DESC5] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY5] => 1
+    [L_PAYMENTREQUEST_0_AMT5] => 57
+    [L_PAYMENTREQUEST_0_NAME6] => ADEREZO DE SOYA Y LIMÓN 250 ML
+    [L_PAYMENTREQUEST_0_DESC6] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY6] => 1
+    [L_PAYMENTREQUEST_0_AMT6] => 57
+    [L_PAYMENTREQUEST_0_NAME7] => ADEREZO DE TAMARINDO CON CHIPOTLE 250 ML
+    [L_PAYMENTREQUEST_0_DESC7] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY7] => 1
+    [L_PAYMENTREQUEST_0_AMT7] => 57
+    [L_PAYMENTREQUEST_0_NAME8] => ADEREZO DE TAMARINDO, CHÍA Y LINAZA 250 ML
+    [L_PAYMENTREQUEST_0_DESC8] => 
+
+
+ADEREZO DE TAMARINDO, CHÍA Y LINAZA  
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Pechuga de pollo asada
+ 	Camarones a la plancha
+ 	Tabla de quesos frescos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY8] => 1
+    [L_PAYMENTREQUEST_0_AMT8] => 57
+    [L_PAYMENTREQUEST_0_NAME9] => ADEREZO ESENCIAS DEL CAMPO 250 ML
+    [L_PAYMENTREQUEST_0_DESC9] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY9] => 1
+    [L_PAYMENTREQUEST_0_AMT9] => 57
+    [L_PAYMENTREQUEST_0_NAME10] => ADEREZO ITALIANO 250 ML
+    [L_PAYMENTREQUEST_0_DESC10] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY10] => 1
+    [L_PAYMENTREQUEST_0_AMT10] => 57
+    [L_PAYMENTREQUEST_0_NAME11] => ADEREZO MIEL DE AGAVE 250 ML
+    [L_PAYMENTREQUEST_0_DESC11] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY11] => 1
+    [L_PAYMENTREQUEST_0_AMT11] => 57
+    [L_PAYMENTREQUEST_0_NAME12] => ADEREZO POBLANO 250 ML
+    [L_PAYMENTREQUEST_0_DESC12] => 
+
+
+ADEREZO POBLANO 
+Ideal para cocinar:
+
+ 	Lechugas tiernas con queso de cabra
+ 	Lasaña de verduras
+ 	Coctel de aguacate, jícama y pepino
+ 	Filetes de pescado
+ 	Huevos poché
+ 	Camarones a la plancha
+ 	Pasta
+ 	Verduras rebozadas
+ 	Ensaladas
+ 	Espárragos y queso parmesano
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY12] => 1
+    [L_PAYMENTREQUEST_0_AMT12] => 57
+    [L_PAYMENTREQUEST_0_NAME13] => Aderezo 500ml Chipotle
+    [L_PAYMENTREQUEST_0_DESC13] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY13] => 1
+    [L_PAYMENTREQUEST_0_AMT13] => 75
+    [L_PAYMENTREQUEST_0_NAME14] => ADEREZO CÉSAR A LA PARMESANA 500 ML
+    [L_PAYMENTREQUEST_0_DESC14] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY14] => 1
+    [L_PAYMENTREQUEST_0_AMT14] => 75
+    [L_PAYMENTREQUEST_0_NAME15] => ADEREZO DE LA CASA 500 ML
+    [L_PAYMENTREQUEST_0_DESC15] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY15] => 1
+    [L_PAYMENTREQUEST_0_AMT15] => 75
+    [L_PAYMENTREQUEST_0_NAME16] => ADEREZO DE MOSTAZA Y MIEL 500 ML
+    [L_PAYMENTREQUEST_0_DESC16] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY16] => 1
+    [L_PAYMENTREQUEST_0_AMT16] => 75
+    [L_PAYMENTREQUEST_0_NAME17] => ADEREZO DE PEPITA 500 ML
+    [L_PAYMENTREQUEST_0_DESC17] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY17] => 1
+    [L_PAYMENTREQUEST_0_AMT17] => 75
+    [L_PAYMENTREQUEST_0_NAME18] => ADEREZO DE SOYA Y LIMÓN 500 ML
+    [L_PAYMENTREQUEST_0_DESC18] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY18] => 1
+    [L_PAYMENTREQUEST_0_AMT18] => 75
+    [L_PAYMENTREQUEST_0_NAME19] => ADEREZO ESENCIAS DEL CAMPO 500 ML
+    [L_PAYMENTREQUEST_0_DESC19] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY19] => 1
+    [L_PAYMENTREQUEST_0_AMT19] => 75
+    [L_PAYMENTREQUEST_0_NAME20] => ADEREZO ITALIANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC20] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY20] => 1
+    [L_PAYMENTREQUEST_0_AMT20] => 75
+    [L_PAYMENTREQUEST_0_NAME21] => ADEREZO MIEL DE AGAVE 500 ML
+    [L_PAYMENTREQUEST_0_DESC21] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY21] => 1
+    [L_PAYMENTREQUEST_0_AMT21] => 75
+    [L_PAYMENTREQUEST_0_NAME22] => ADEREZO POBLANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC22] => 
+
+
+ADEREZO POBLANO 
+Ideal para cocinar:
+
+ 	Lechugas tiernas con queso de cabra
+ 	Lasaña de verduras
+ 	Coctel de aguacate, jícama y pepino
+ 	Filetes de pescado
+ 	Huevos poché
+ 	Camarones a la plancha
+ 	Pasta
+ 	Verduras rebozadas
+ 	Ensaladas
+ 	Espárragos y queso parmesano
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY22] => 1
+    [L_PAYMENTREQUEST_0_AMT22] => 75
+    [L_PAYMENTREQUEST_0_NAME23] => ADEREZO THAI 500 ML
+    [L_PAYMENTREQUEST_0_DESC23] => 
+
+
+ADEREZO THAI 
+Ideal para cocinar:
+
+ 	Vegetales crudos o cocidos
+ 	Pasta fría
+ 	Sushi
+ 	Tacos de papel arroz
+ 	Molletes
+ 	Fajitas de pollo
+ 	Pescados y mariscos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY23] => 1
+    [L_PAYMENTREQUEST_0_AMT23] => 75
+    [L_PAYMENTREQUEST_0_NAME24] => MARINADA DE ACHIOTE 500 ML
+    [L_PAYMENTREQUEST_0_DESC24] => 
+
+
+MARINADA DE ACHIOTE 
+Ideal para cocinar:
+
+ 	Pescados y Mariscos
+ 	Cochinita pibil
+ 	Conejo
+ 	Tamales
+ 	Mixiotes
+ 	Lomo de cerdo al horno
+ 	Frijoles refritos
+ 	Pescado o pollo al vapor
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY24] => 1
+    [L_PAYMENTREQUEST_0_AMT24] => 75
+    [L_PAYMENTREQUEST_0_NAME25] => Aderezo 3.9L Thai
+    [L_PAYMENTREQUEST_0_DESC25] => 
+
+
+ADEREZO THAI 
+Ideal para cocinar:
+
+ 	Vegetales crudos o cocidos
+ 	Pasta fría
+ 	Sushi
+ 	Tacos de papel arroz
+ 	Molletes
+ 	Fajitas de pollo
+ 	Pescados y mariscos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY25] => 1
+    [L_PAYMENTREQUEST_0_AMT25] => 450
+    [L_PAYMENTREQUEST_0_NAME26] => ADEREZO CÉSAR A LA PARMESANA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC26] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY26] => 1
+    [L_PAYMENTREQUEST_0_AMT26] => 450
+    [L_PAYMENTREQUEST_0_NAME27] => ADEREZO CON SOYA Y LIMÓN 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC27] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY27] => 1
+    [L_PAYMENTREQUEST_0_AMT27] => 450
+    [L_PAYMENTREQUEST_0_NAME28] => ADEREZO DE CHABACANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC28] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY28] => 1
+    [L_PAYMENTREQUEST_0_AMT28] => 300
+    [L_PAYMENTREQUEST_0_NAME29] => ADEREZO DE CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC29] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY29] => 1
+    [L_PAYMENTREQUEST_0_AMT29] => 450
+    [L_PAYMENTREQUEST_0_NAME30] => ADEREZO DE LA CASA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC30] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY30] => 1
+    [L_PAYMENTREQUEST_0_AMT30] => 450
+    [L_PAYMENTREQUEST_0_NAME31] => ADEREZO DE MOSTAZA Y MIEL 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC31] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY31] => 1
+    [L_PAYMENTREQUEST_0_AMT31] => 450
+    [L_PAYMENTREQUEST_0_NAME32] => ADEREZO DE TAMARINDO CON CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC32] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY32] => 1
+    [L_PAYMENTREQUEST_0_AMT32] => 340
+    [L_PAYMENTREQUEST_0_NAME33] => ADEREZO ESENCIAS DEL CAMPO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC33] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY33] => 1
+    [L_PAYMENTREQUEST_0_AMT33] => 450
+    [L_PAYMENTREQUEST_0_NAME34] => ADEREZO ITALIANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC34] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY34] => 1
+    [L_PAYMENTREQUEST_0_AMT34] => 300
+    [L_PAYMENTREQUEST_0_NAME35] => MARINADA DE ACHIOTE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC35] => 
+
+
+MARINADA DE ACHIOTE 
+Ideal para cocinar:
+
+ 	Pescados y Mariscos
+ 	Cochinita pibil
+ 	Conejo
+ 	Tamales
+ 	Mixiotes
+ 	Lomo de cerdo al horno
+ 	Frijoles refritos
+ 	Pescado o pollo al vapor
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY35] => 1
+    [L_PAYMENTREQUEST_0_AMT35] => 450
+    [L_PAYMENTREQUEST_0_NAME36] => Salsa 3.9L Chipotle y Piloncillo
+    [L_PAYMENTREQUEST_0_DESC36] => 
+
+
+SALSA DE CHIPOTLE Y PILONCILLO 
+Ideal para cocinar:
+
+ 	Quesadillas
+ 	Chilaquiles
+ 	Camarones
+ 	Papas al horno
+ 	Pechuga de pollo en fajitas
+ 	Pescado asado
+ 	Albóndigas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY36] => 1
+    [L_PAYMENTREQUEST_0_AMT36] => 190
+    [L_PAYMENTREQUEST_0_NAME37] => SALSA A LA TALLA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC37] => 
+
+
+
+    [L_PAYMENTREQUEST_0_QTY37] => 1
+    [L_PAYMENTREQUEST_0_AMT37] => 340
+    [L_PAYMENTREQUEST_0_NAME38] => SALSA ARRIERA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC38] => 
+
+
+SALSA ARRIERA 
+Ideal para cocinar:
+
+ 	Huevos al gusto
+ 	Enchiladas de pollo
+ 	Puntas de bistec
+ 	Caldos y pozoles
+ 	Chilaquiles
+ 	Carnes asadas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY38] => 1
+    [L_PAYMENTREQUEST_0_AMT38] => 190
+    [L_PAYMENTREQUEST_0_NAME39] => SALSA CHILE MANZANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC39] => SALSA DE CHILE MANZANO 
+Ideal para cocinar:
+
+ 	Tostadas de tinga con aguacate
+ 	Aguachile de camarón
+ 	Tacos de barbacoa
+ 	Ceviche de pescado
+ 	Carnitas de cerdo
+ 	Gorditas de chicharrón
+ 	Tacos sudados
+ 	Enchiladas
+ 	Mariscos frescos
+
+    [L_PAYMENTREQUEST_0_QTY39] => 1
+    [L_PAYMENTREQUEST_0_AMT39] => 240
+    [L_PAYMENTREQUEST_0_NAME40] => SALSA ARRIERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC40] => 
+
+
+SALSA ARRIERA 
+Ideal para cocinar:
+
+ 	Huevos al gusto
+ 	Enchiladas de pollo
+ 	Puntas de bistec
+ 	Caldos y pozoles
+ 	Chilaquiles
+ 	Carnes asadas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY40] => 1
+    [L_PAYMENTREQUEST_0_AMT40] => 44
+    [L_PAYMENTREQUEST_0_NAME41] => SALSA CHILE DE ÁRBOL 360 ML
+    [L_PAYMENTREQUEST_0_DESC41] => 
+
+
+SALSA CHILE DE ÁRBOL 
+Ideal para cocinar:
+
+ 	Frijoles de la olla
+ 	Pescado a la talla
+ 	Flautas de carne
+ 	Quesadillas de flor de calabaza
+ 	Lomo enchilado al horno
+ 	Sopes de pollo
+ 	Tacos de chicharrón
+ 	Carnitas de cerdo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY41] => 1
+    [L_PAYMENTREQUEST_0_AMT41] => 44
+    [L_PAYMENTREQUEST_0_NAME42] => SALSA DE CHILE MANZANO 360 ML
+    [L_PAYMENTREQUEST_0_DESC42] => 
+
+
+SALSA DE CHILE MANZANO 
+Ideal para cocinar:
+
+ 	Tostadas de tinga con aguacate
+ 	Aguachile de camarón
+ 	Tacos de barbacoa
+ 	Ceviche de pescado
+ 	Carnitas de cerdo 
+ 	Gorditas de chicharrón
+ 	Tacos sudados
+ 	Enchiladas
+ 	Mariscos frescos  
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY42] => 1
+    [L_PAYMENTREQUEST_0_AMT42] => 44
+    [L_PAYMENTREQUEST_0_NAME43] => SALSA DE CHIPOTLE Y PILONCILLO 360 ML
+    [L_PAYMENTREQUEST_0_DESC43] => 
+
+
+SALSA DE CHIPOTLE Y PILONCILLO 
+Ideal para cocinar:
+
+ 	Quesadillas
+ 	Chilaquiles
+ 	Camarones
+ 	Papas al horno
+ 	Pechuga de pollo en fajitas
+ 	Pescado asado
+ 	Albóndigas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY43] => 1
+    [L_PAYMENTREQUEST_0_AMT43] => 44
+    [L_PAYMENTREQUEST_0_NAME44] => SALSA DE JALAPEÑO 360 ML
+    [L_PAYMENTREQUEST_0_DESC44] => 
+
+
+SALSA DE JALAPEÑO 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Enchiladas
+ 	Sopes
+ 	Huevos al gusto
+ 	Taquitos de pollo
+ 	Tamales de elote
+ 	Queso fresco
+ 	Pechugas asadas
+ 	Requesón
+ 	Arroz al vapor
+ 	Tostadas de pollo
+ 	Salpicón de res
+ 	Milanesa de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY44] => 1
+    [L_PAYMENTREQUEST_0_AMT44] => 44
+    [L_PAYMENTREQUEST_0_NAME45] => SALSA DE TRES CHILES 360 ML
+    [L_PAYMENTREQUEST_0_DESC45] => 
+
+
+SALSA DE TRES CHILES  
+Ideal para cocinar:
+
+ 	Chicharrón en salsa
+ 	Albóndigas
+ 	Sopes
+ 	Chilaquiles
+ 	Carne asada
+ 	Tacos de pollo
+ 	Enchiladas con queso
+ 	Bistec enchilado
+ 	Tamalitos de requesón
+ 	Sándwich
+ 	Pollo
+ 	Flautas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY45] => 1
+    [L_PAYMENTREQUEST_0_AMT45] => 44
+    [L_PAYMENTREQUEST_0_NAME46] => SALSA JALAPEÑO INTENSO 360 ML
+    [L_PAYMENTREQUEST_0_DESC46] => 
+
+
+SALSA JALAPEÑO INTENSO 
+Ideal para cocinar:
+
+ 	Tostadas de marlín
+ 	Carnes asadas
+ 	Camarones rebozados
+ 	Tacos
+ 	Guacamole
+ 	Pollo al horno
+ 	Callo de hacha sellado
+ 	Ribe eye a las brasas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY46] => 1
+    [L_PAYMENTREQUEST_0_AMT46] => 44
+    [L_PAYMENTREQUEST_0_NAME47] => SALSA MAÑANERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC47] => 
+
+
+SALSA MAÑANERA 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Tacos de barbacoa
+ 	Huevos al gusto
+ 	Gorditas de chicharrón o frijol
+ 	Frijoles de la olla
+ 	Sopes al comal
+ 	Pastel Moctezuma
+ 	Chalupas
+ 	Pastas
+ 	Tostadas de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY47] => 1
+    [L_PAYMENTREQUEST_0_AMT47] => 44
+    [L_PAYMENTREQUEST_0_NAME48] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC48] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY48] => 1
+    [L_PAYMENTREQUEST_0_AMT48] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-12-2018 @ 01:13:10 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-80F85356FB9323502
+    [TIMESTAMP] => 2018-02-12T07:13:10Z
+    [CORRELATIONID] => 15601bc3b87bc
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 000000
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+02-12-2018 @ 01:13:13 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 7493
+    [PAYMENTREQUEST_0_ITEMAMT] => 7493
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => Aderezo César a la Parmesana 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 57
+    [L_PAYMENTREQUEST_0_NAME1] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC1] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 57
+    [L_PAYMENTREQUEST_0_NAME2] => Aderezo de Chipotle 250 ml
+    [L_PAYMENTREQUEST_0_DESC2] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_AMT2] => 57
+    [L_PAYMENTREQUEST_0_NAME3] => ADEREZO DE FINAS HIERBAS 250 ML
+    [L_PAYMENTREQUEST_0_DESC3] => 
+
+
+ADEREZO DE FINAS HIERBAS 
+Ideal para cocinar:
+
+ 	Alcachofas cocidas
+ 	Ceviche de camarón, pulpo y jaiba
+ 	Arrachera
+ 	Quesos
+ 	Ensaladas
+ 	Marinar carnes
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY3] => 1
+    [L_PAYMENTREQUEST_0_AMT3] => 57
+    [L_PAYMENTREQUEST_0_NAME4] => ADEREZO DE MOSTAZA Y MIEL 250 ML
+    [L_PAYMENTREQUEST_0_DESC4] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY4] => 1
+    [L_PAYMENTREQUEST_0_AMT4] => 57
+    [L_PAYMENTREQUEST_0_NAME5] => ADEREZO DE PEPITA 250 ML
+    [L_PAYMENTREQUEST_0_DESC5] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY5] => 1
+    [L_PAYMENTREQUEST_0_AMT5] => 57
+    [L_PAYMENTREQUEST_0_NAME6] => ADEREZO DE SOYA Y LIMÓN 250 ML
+    [L_PAYMENTREQUEST_0_DESC6] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY6] => 1
+    [L_PAYMENTREQUEST_0_AMT6] => 57
+    [L_PAYMENTREQUEST_0_NAME7] => ADEREZO DE TAMARINDO CON CHIPOTLE 250 ML
+    [L_PAYMENTREQUEST_0_DESC7] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY7] => 1
+    [L_PAYMENTREQUEST_0_AMT7] => 57
+    [L_PAYMENTREQUEST_0_NAME8] => ADEREZO DE TAMARINDO, CHÍA Y LINAZA 250 ML
+    [L_PAYMENTREQUEST_0_DESC8] => 
+
+
+ADEREZO DE TAMARINDO, CHÍA Y LINAZA  
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Pechuga de pollo asada
+ 	Camarones a la plancha
+ 	Tabla de quesos frescos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY8] => 1
+    [L_PAYMENTREQUEST_0_AMT8] => 57
+    [L_PAYMENTREQUEST_0_NAME9] => ADEREZO ESENCIAS DEL CAMPO 250 ML
+    [L_PAYMENTREQUEST_0_DESC9] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY9] => 1
+    [L_PAYMENTREQUEST_0_AMT9] => 57
+    [L_PAYMENTREQUEST_0_NAME10] => ADEREZO ITALIANO 250 ML
+    [L_PAYMENTREQUEST_0_DESC10] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY10] => 1
+    [L_PAYMENTREQUEST_0_AMT10] => 57
+    [L_PAYMENTREQUEST_0_NAME11] => ADEREZO MIEL DE AGAVE 250 ML
+    [L_PAYMENTREQUEST_0_DESC11] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY11] => 1
+    [L_PAYMENTREQUEST_0_AMT11] => 57
+    [L_PAYMENTREQUEST_0_NAME12] => ADEREZO POBLANO 250 ML
+    [L_PAYMENTREQUEST_0_DESC12] => 
+
+
+ADEREZO POBLANO 
+Ideal para cocinar:
+
+ 	Lechugas tiernas con queso de cabra
+ 	Lasaña de verduras
+ 	Coctel de aguacate, jícama y pepino
+ 	Filetes de pescado
+ 	Huevos poché
+ 	Camarones a la plancha
+ 	Pasta
+ 	Verduras rebozadas
+ 	Ensaladas
+ 	Espárragos y queso parmesano
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY12] => 1
+    [L_PAYMENTREQUEST_0_AMT12] => 57
+    [L_PAYMENTREQUEST_0_NAME13] => Aderezo 500ml Chipotle
+    [L_PAYMENTREQUEST_0_DESC13] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY13] => 1
+    [L_PAYMENTREQUEST_0_AMT13] => 75
+    [L_PAYMENTREQUEST_0_NAME14] => ADEREZO CÉSAR A LA PARMESANA 500 ML
+    [L_PAYMENTREQUEST_0_DESC14] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY14] => 1
+    [L_PAYMENTREQUEST_0_AMT14] => 75
+    [L_PAYMENTREQUEST_0_NAME15] => ADEREZO DE LA CASA 500 ML
+    [L_PAYMENTREQUEST_0_DESC15] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY15] => 1
+    [L_PAYMENTREQUEST_0_AMT15] => 75
+    [L_PAYMENTREQUEST_0_NAME16] => ADEREZO DE MOSTAZA Y MIEL 500 ML
+    [L_PAYMENTREQUEST_0_DESC16] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY16] => 1
+    [L_PAYMENTREQUEST_0_AMT16] => 75
+    [L_PAYMENTREQUEST_0_NAME17] => ADEREZO DE PEPITA 500 ML
+    [L_PAYMENTREQUEST_0_DESC17] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY17] => 1
+    [L_PAYMENTREQUEST_0_AMT17] => 75
+    [L_PAYMENTREQUEST_0_NAME18] => ADEREZO DE SOYA Y LIMÓN 500 ML
+    [L_PAYMENTREQUEST_0_DESC18] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY18] => 1
+    [L_PAYMENTREQUEST_0_AMT18] => 75
+    [L_PAYMENTREQUEST_0_NAME19] => ADEREZO ESENCIAS DEL CAMPO 500 ML
+    [L_PAYMENTREQUEST_0_DESC19] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY19] => 1
+    [L_PAYMENTREQUEST_0_AMT19] => 75
+    [L_PAYMENTREQUEST_0_NAME20] => ADEREZO ITALIANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC20] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY20] => 1
+    [L_PAYMENTREQUEST_0_AMT20] => 75
+    [L_PAYMENTREQUEST_0_NAME21] => ADEREZO MIEL DE AGAVE 500 ML
+    [L_PAYMENTREQUEST_0_DESC21] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY21] => 1
+    [L_PAYMENTREQUEST_0_AMT21] => 75
+    [L_PAYMENTREQUEST_0_NAME22] => ADEREZO POBLANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC22] => 
+
+
+ADEREZO POBLANO 
+Ideal para cocinar:
+
+ 	Lechugas tiernas con queso de cabra
+ 	Lasaña de verduras
+ 	Coctel de aguacate, jícama y pepino
+ 	Filetes de pescado
+ 	Huevos poché
+ 	Camarones a la plancha
+ 	Pasta
+ 	Verduras rebozadas
+ 	Ensaladas
+ 	Espárragos y queso parmesano
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY22] => 1
+    [L_PAYMENTREQUEST_0_AMT22] => 75
+    [L_PAYMENTREQUEST_0_NAME23] => ADEREZO THAI 500 ML
+    [L_PAYMENTREQUEST_0_DESC23] => 
+
+
+ADEREZO THAI 
+Ideal para cocinar:
+
+ 	Vegetales crudos o cocidos
+ 	Pasta fría
+ 	Sushi
+ 	Tacos de papel arroz
+ 	Molletes
+ 	Fajitas de pollo
+ 	Pescados y mariscos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY23] => 1
+    [L_PAYMENTREQUEST_0_AMT23] => 75
+    [L_PAYMENTREQUEST_0_NAME24] => MARINADA DE ACHIOTE 500 ML
+    [L_PAYMENTREQUEST_0_DESC24] => 
+
+
+MARINADA DE ACHIOTE 
+Ideal para cocinar:
+
+ 	Pescados y Mariscos
+ 	Cochinita pibil
+ 	Conejo
+ 	Tamales
+ 	Mixiotes
+ 	Lomo de cerdo al horno
+ 	Frijoles refritos
+ 	Pescado o pollo al vapor
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY24] => 1
+    [L_PAYMENTREQUEST_0_AMT24] => 75
+    [L_PAYMENTREQUEST_0_NAME25] => Aderezo 3.9L Thai
+    [L_PAYMENTREQUEST_0_DESC25] => 
+
+
+ADEREZO THAI 
+Ideal para cocinar:
+
+ 	Vegetales crudos o cocidos
+ 	Pasta fría
+ 	Sushi
+ 	Tacos de papel arroz
+ 	Molletes
+ 	Fajitas de pollo
+ 	Pescados y mariscos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY25] => 1
+    [L_PAYMENTREQUEST_0_AMT25] => 450
+    [L_PAYMENTREQUEST_0_NAME26] => ADEREZO CÉSAR A LA PARMESANA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC26] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY26] => 1
+    [L_PAYMENTREQUEST_0_AMT26] => 450
+    [L_PAYMENTREQUEST_0_NAME27] => ADEREZO CON SOYA Y LIMÓN 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC27] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY27] => 1
+    [L_PAYMENTREQUEST_0_AMT27] => 450
+    [L_PAYMENTREQUEST_0_NAME28] => ADEREZO DE CHABACANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC28] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY28] => 1
+    [L_PAYMENTREQUEST_0_AMT28] => 300
+    [L_PAYMENTREQUEST_0_NAME29] => ADEREZO DE CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC29] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY29] => 1
+    [L_PAYMENTREQUEST_0_AMT29] => 450
+    [L_PAYMENTREQUEST_0_NAME30] => ADEREZO DE LA CASA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC30] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY30] => 1
+    [L_PAYMENTREQUEST_0_AMT30] => 450
+    [L_PAYMENTREQUEST_0_NAME31] => ADEREZO DE MOSTAZA Y MIEL 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC31] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY31] => 1
+    [L_PAYMENTREQUEST_0_AMT31] => 450
+    [L_PAYMENTREQUEST_0_NAME32] => ADEREZO DE TAMARINDO CON CHIPOTLE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC32] => 
+
+
+ADEREZO DE TAMARINDO CON CHIPOTLE 
+Ideal para cocinar:
+
+ 	Carnes
+ 	Pescados y mariscos
+ 	Quesos frescos
+ 	Vegetales crudos
+ 	Ensaladas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY32] => 1
+    [L_PAYMENTREQUEST_0_AMT32] => 340
+    [L_PAYMENTREQUEST_0_NAME33] => ADEREZO ESENCIAS DEL CAMPO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC33] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY33] => 1
+    [L_PAYMENTREQUEST_0_AMT33] => 450
+    [L_PAYMENTREQUEST_0_NAME34] => ADEREZO ITALIANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC34] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY34] => 1
+    [L_PAYMENTREQUEST_0_AMT34] => 300
+    [L_PAYMENTREQUEST_0_NAME35] => MARINADA DE ACHIOTE 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC35] => 
+
+
+MARINADA DE ACHIOTE 
+Ideal para cocinar:
+
+ 	Pescados y Mariscos
+ 	Cochinita pibil
+ 	Conejo
+ 	Tamales
+ 	Mixiotes
+ 	Lomo de cerdo al horno
+ 	Frijoles refritos
+ 	Pescado o pollo al vapor
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY35] => 1
+    [L_PAYMENTREQUEST_0_AMT35] => 450
+    [L_PAYMENTREQUEST_0_NAME36] => Salsa 3.9L Chipotle y Piloncillo
+    [L_PAYMENTREQUEST_0_DESC36] => 
+
+
+SALSA DE CHIPOTLE Y PILONCILLO 
+Ideal para cocinar:
+
+ 	Quesadillas
+ 	Chilaquiles
+ 	Camarones
+ 	Papas al horno
+ 	Pechuga de pollo en fajitas
+ 	Pescado asado
+ 	Albóndigas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY36] => 1
+    [L_PAYMENTREQUEST_0_AMT36] => 190
+    [L_PAYMENTREQUEST_0_NAME37] => SALSA A LA TALLA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC37] => 
+
+
+
+    [L_PAYMENTREQUEST_0_QTY37] => 1
+    [L_PAYMENTREQUEST_0_AMT37] => 340
+    [L_PAYMENTREQUEST_0_NAME38] => SALSA ARRIERA 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC38] => 
+
+
+SALSA ARRIERA 
+Ideal para cocinar:
+
+ 	Huevos al gusto
+ 	Enchiladas de pollo
+ 	Puntas de bistec
+ 	Caldos y pozoles
+ 	Chilaquiles
+ 	Carnes asadas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY38] => 1
+    [L_PAYMENTREQUEST_0_AMT38] => 190
+    [L_PAYMENTREQUEST_0_NAME39] => SALSA CHILE MANZANO 3.9 LT
+    [L_PAYMENTREQUEST_0_DESC39] => SALSA DE CHILE MANZANO 
+Ideal para cocinar:
+
+ 	Tostadas de tinga con aguacate
+ 	Aguachile de camarón
+ 	Tacos de barbacoa
+ 	Ceviche de pescado
+ 	Carnitas de cerdo
+ 	Gorditas de chicharrón
+ 	Tacos sudados
+ 	Enchiladas
+ 	Mariscos frescos
+
+    [L_PAYMENTREQUEST_0_QTY39] => 1
+    [L_PAYMENTREQUEST_0_AMT39] => 240
+    [L_PAYMENTREQUEST_0_NAME40] => SALSA ARRIERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC40] => 
+
+
+SALSA ARRIERA 
+Ideal para cocinar:
+
+ 	Huevos al gusto
+ 	Enchiladas de pollo
+ 	Puntas de bistec
+ 	Caldos y pozoles
+ 	Chilaquiles
+ 	Carnes asadas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY40] => 1
+    [L_PAYMENTREQUEST_0_AMT40] => 44
+    [L_PAYMENTREQUEST_0_NAME41] => SALSA CHILE DE ÁRBOL 360 ML
+    [L_PAYMENTREQUEST_0_DESC41] => 
+
+
+SALSA CHILE DE ÁRBOL 
+Ideal para cocinar:
+
+ 	Frijoles de la olla
+ 	Pescado a la talla
+ 	Flautas de carne
+ 	Quesadillas de flor de calabaza
+ 	Lomo enchilado al horno
+ 	Sopes de pollo
+ 	Tacos de chicharrón
+ 	Carnitas de cerdo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY41] => 1
+    [L_PAYMENTREQUEST_0_AMT41] => 44
+    [L_PAYMENTREQUEST_0_NAME42] => SALSA DE CHILE MANZANO 360 ML
+    [L_PAYMENTREQUEST_0_DESC42] => 
+
+
+SALSA DE CHILE MANZANO 
+Ideal para cocinar:
+
+ 	Tostadas de tinga con aguacate
+ 	Aguachile de camarón
+ 	Tacos de barbacoa
+ 	Ceviche de pescado
+ 	Carnitas de cerdo 
+ 	Gorditas de chicharrón
+ 	Tacos sudados
+ 	Enchiladas
+ 	Mariscos frescos  
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY42] => 1
+    [L_PAYMENTREQUEST_0_AMT42] => 44
+    [L_PAYMENTREQUEST_0_NAME43] => SALSA DE CHIPOTLE Y PILONCILLO 360 ML
+    [L_PAYMENTREQUEST_0_DESC43] => 
+
+
+SALSA DE CHIPOTLE Y PILONCILLO 
+Ideal para cocinar:
+
+ 	Quesadillas
+ 	Chilaquiles
+ 	Camarones
+ 	Papas al horno
+ 	Pechuga de pollo en fajitas
+ 	Pescado asado
+ 	Albóndigas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY43] => 1
+    [L_PAYMENTREQUEST_0_AMT43] => 44
+    [L_PAYMENTREQUEST_0_NAME44] => SALSA DE JALAPEÑO 360 ML
+    [L_PAYMENTREQUEST_0_DESC44] => 
+
+
+SALSA DE JALAPEÑO 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Enchiladas
+ 	Sopes
+ 	Huevos al gusto
+ 	Taquitos de pollo
+ 	Tamales de elote
+ 	Queso fresco
+ 	Pechugas asadas
+ 	Requesón
+ 	Arroz al vapor
+ 	Tostadas de pollo
+ 	Salpicón de res
+ 	Milanesa de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY44] => 1
+    [L_PAYMENTREQUEST_0_AMT44] => 44
+    [L_PAYMENTREQUEST_0_NAME45] => SALSA DE TRES CHILES 360 ML
+    [L_PAYMENTREQUEST_0_DESC45] => 
+
+
+SALSA DE TRES CHILES  
+Ideal para cocinar:
+
+ 	Chicharrón en salsa
+ 	Albóndigas
+ 	Sopes
+ 	Chilaquiles
+ 	Carne asada
+ 	Tacos de pollo
+ 	Enchiladas con queso
+ 	Bistec enchilado
+ 	Tamalitos de requesón
+ 	Sándwich
+ 	Pollo
+ 	Flautas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY45] => 1
+    [L_PAYMENTREQUEST_0_AMT45] => 44
+    [L_PAYMENTREQUEST_0_NAME46] => SALSA JALAPEÑO INTENSO 360 ML
+    [L_PAYMENTREQUEST_0_DESC46] => 
+
+
+SALSA JALAPEÑO INTENSO 
+Ideal para cocinar:
+
+ 	Tostadas de marlín
+ 	Carnes asadas
+ 	Camarones rebozados
+ 	Tacos
+ 	Guacamole
+ 	Pollo al horno
+ 	Callo de hacha sellado
+ 	Ribe eye a las brasas
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY46] => 1
+    [L_PAYMENTREQUEST_0_AMT46] => 44
+    [L_PAYMENTREQUEST_0_NAME47] => SALSA MAÑANERA 360 ML
+    [L_PAYMENTREQUEST_0_DESC47] => 
+
+
+SALSA MAÑANERA 
+Ideal para cocinar:
+
+ 	Chilaquiles
+ 	Tacos de barbacoa
+ 	Huevos al gusto
+ 	Gorditas de chicharrón o frijol
+ 	Frijoles de la olla
+ 	Sopes al comal
+ 	Pastel Moctezuma
+ 	Chalupas
+ 	Pastas
+ 	Tostadas de pollo
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY47] => 1
+    [L_PAYMENTREQUEST_0_AMT47] => 44
+    [L_PAYMENTREQUEST_0_NAME48] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC48] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY48] => 1
+    [L_PAYMENTREQUEST_0_AMT48] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-12-2018 @ 01:13:14 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-3NB32243WW726581J
+    [TIMESTAMP] => 2018-02-12T07:13:14Z
+    [CORRELATIONID] => 6863025c86dfc
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 43715881
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+02-12-2018 @ 21:16:24 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-12-2018 @ 21:16:25 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 5GP4KDPWVAFZE
+    [LOCALE] => es_XC
+    [TIMESTAMP] => 2018-02-13T03:16:25Z
+    [CORRELATIONID] => 5b1f395bd3af3
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 39206242
+)
+
+02-13-2018 @ 14:08:50 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/logo2.png
+    [HDRIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/DSC05263.jpg
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 57
+    [PAYMENTREQUEST_0_ITEMAMT] => 57
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 57
+    [L_PAYMENTREQUEST_0_NAME1] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC1] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+02-13-2018 @ 14:08:51 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-7BC419479P583304B
+    [TIMESTAMP] => 2018-02-13T20:08:51Z
+    [CORRELATIONID] => afbcfddc37ffc
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 43715881
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+03-08-2018 @ 11:19:39 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/logo2.png
+    [HDRIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/DSC05263.jpg
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 783
+    [PAYMENTREQUEST_0_ITEMAMT] => 783
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => ADEREZO CÉSAR A LA PARMESANA 500 ML
+    [L_PAYMENTREQUEST_0_DESC0] => 
+
+
+ADEREZO CÉSAR A LA PARMESANA 
+Ideal para cocinar:
+
+ 	Pastas
+ 	Brochetas de pollo
+ 	Camarones a la parrilla
+ 	Ensaladas
+ 	Puré de papa
+ 	Pollo empanizado
+ 	Sándwich de Pechuga de Pavo
+ 	Canelones rellenos
+ 	Alcachofas cocidas al horno
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 80
+    [L_PAYMENTREQUEST_0_NAME1] => ADEREZO DE LA CASA 500 ML
+    [L_PAYMENTREQUEST_0_DESC1] => 
+
+
+ADEREZO DE LA CASA 
+Ideal para cocinar:
+
+ 	Alcachofas
+ 	Espárragos
+ 	Ensaladas
+ 	Vegetales crudos
+ 	Papas
+ 	Baguettes
+ 	Sándwich de salmón
+ 	Lomitos de ternera
+ 	Cortes de carne
+ 	Salpicón de pollo
+ 	Atún sellado
+ 	Tacos de Ribe eye
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 80
+    [L_PAYMENTREQUEST_0_NAME2] => Aderezo 500ml Chipotle
+    [L_PAYMENTREQUEST_0_DESC2] => 
+
+
+ADEREZO DE CHIPOTLE 
+Ideal para cocinar:
+
+ 	Vegetales crudos
+ 	Quesadillas
+ 	Tacos gobernador
+ 	Baguettes
+ 	Quesos frescos
+ 	Frijoles refritos
+ 	Pescados
+ 	Ensaladas
+ 	Chuletas de cordero
+ 	Pasta
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY2] => 1
+    [L_PAYMENTREQUEST_0_AMT2] => 80
+    [L_PAYMENTREQUEST_0_NAME3] => ADEREZO DE SOYA Y LIMÓN 500 ML
+    [L_PAYMENTREQUEST_0_DESC3] => 
+
+
+ADEREZO DE SOYA Y LIMÓN 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Vegetales crudos o cocidos
+ 	Arroz
+ 	Pasta
+ 	Brochetas
+ 	Pechugas de pollo
+ 	Sushi
+ 	Pescados y mariscos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY3] => 1
+    [L_PAYMENTREQUEST_0_AMT3] => 80
+    [L_PAYMENTREQUEST_0_NAME4] => ADEREZO DE PEPITA 500 ML
+    [L_PAYMENTREQUEST_0_DESC4] => 
+
+
+ADEREZO DE PEPITA 
+Ideal para cocinar:
+
+ 	Papa al horno
+ 	Ensaladas
+ 	Verduras al vapor
+ 	Pescado
+ 	Pastas
+ 	Aguacates rellenos
+ 	Baguettes
+ 	Chiles rellenos de atún
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY4] => 1
+    [L_PAYMENTREQUEST_0_AMT4] => 80
+    [L_PAYMENTREQUEST_0_NAME5] => ADEREZO DE MOSTAZA Y MIEL 500 ML
+    [L_PAYMENTREQUEST_0_DESC5] => 
+
+
+ADEREZO DE MOSTAZA Y MIEL  
+Ideal para cocinar:
+
+ 	Sándwich de pechuga de pavo
+ 	Plato de carnes frías
+ 	Filete asado o al horno
+ 	Plato de quesos frescos
+ 	Espárragos al vapor
+ 	Salmón al horno
+ 	Atún sellado
+ 	Ensaladas
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY5] => 1
+    [L_PAYMENTREQUEST_0_AMT5] => 80
+    [L_PAYMENTREQUEST_0_NAME6] => ADEREZO MIEL DE AGAVE 500 ML
+    [L_PAYMENTREQUEST_0_DESC6] => 
+
+
+ADEREZO MIEL DE AGAVE 
+Ideal para cocinar:
+
+ 	Pescado en corte grueso
+ 	Brochetas de camarón
+ 	Ensaladas
+ 	Atún sellado
+ 	Betabel al horno
+ 	Lomo de puerco
+ 	Huevos duros
+ 	Quesos frescos
+ 	Vegetales
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY6] => 1
+    [L_PAYMENTREQUEST_0_AMT6] => 80
+    [L_PAYMENTREQUEST_0_NAME7] => ADEREZO ITALIANO 500 ML
+    [L_PAYMENTREQUEST_0_DESC7] => 
+
+
+ADEREZO ITALIANO  
+Ideal para cocinar:
+
+ 	Camarones a la plancha
+ 	Pasta corta
+ 	Pechugas de pollo
+ 	Pulpa de ternera
+ 	Carpaccio de pescado
+ 	Queso Mozzarella
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY7] => 1
+    [L_PAYMENTREQUEST_0_AMT7] => 80
+    [L_PAYMENTREQUEST_0_NAME8] => ADEREZO ESENCIAS DEL CAMPO 500 ML
+    [L_PAYMENTREQUEST_0_DESC8] => 
+
+
+ADEREZO ESENCIAS DEL CAMPO 
+Ideal para cocinar:
+
+ 	Filete de res
+ 	Tortas de pierna horneada
+ 	Hongos salteados
+ 	Alitas horneadas
+ 	Huachinango en sashimi
+ 	Ensaladas
+ 	Ternera al horno
+ 	Atún sellado
+ 	Frijoles de la olla
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY8] => 1
+    [L_PAYMENTREQUEST_0_AMT8] => 80
+    [L_PAYMENTREQUEST_0_NAME9] => Aderezo de Chabacano 250 ml
+    [L_PAYMENTREQUEST_0_DESC9] => 
+
+
+ADEREZO DE CHABACANO 
+Ideal para cocinar:
+
+ 	Ensaladas
+ 	Espinacas con queso de cabra y almendras
+ 	Costillas de cerdo
+ 	Pollo al horno
+ 	Camarones empanizados con coco
+ 	Tabla de quesos
+
+
+
+
+
+    [L_PAYMENTREQUEST_0_QTY9] => 1
+    [L_PAYMENTREQUEST_0_AMT9] => 63
+    [L_PAYMENTREQUEST_0_NAME10] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC10] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY10] => 1
+    [L_PAYMENTREQUEST_0_AMT10] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+03-08-2018 @ 11:19:39 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-3RG54732CY300894S
+    [TIMESTAMP] => 2018-03-08T17:19:39Z
+    [CORRELATIONID] => d61403316e361
+    [ACK] => SuccessWithWarning
+    [VERSION] => 120.0
+    [BUILD] => 43953382
+    [L_ERRORCODE0] => 11812
+    [L_SHORTMESSAGE0] => Invalid Data
+    [L_LONGMESSAGE0] => The value of Description parameter has been truncated.
+    [L_SEVERITYCODE0] => Warning
+)
+
+03-13-2018 @ 12:20:35 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/logo2.png
+    [HDRIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/DSC05263.jpg
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 63
+    [PAYMENTREQUEST_0_ITEMAMT] => 63
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => ADEREZO THAI - 250 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 63
+    [L_PAYMENTREQUEST_0_NAME1] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC1] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+03-13-2018 @ 12:20:36 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-9Y531200EK8584631
+    [TIMESTAMP] => 2018-03-13T18:20:36Z
+    [CORRELATIONID] => 952b550c1f345
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 43953382
+)
+
+03-13-2018 @ 13:19:42 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/logo2.png
+    [HDRIMG] => https://www.gavilla.com.mx/wp-content/uploads/2018/02/DSC05263.jpg
+    [PAGESTYLE] => 
+    [BRANDNAME] => Recetario Patricia Quintana
+    [RETURNURL] => https://www.gavilla.com.mx/finalizar-comprar/?woo-paypal-return=true
+    [CANCELURL] => https://www.gavilla.com.mx/carrito/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Billing
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_ALLOWEDPAYMENTMETHOD] => InstantPaymentOnly
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [PAYMENTREQUEST_0_AMT] => 800
+    [PAYMENTREQUEST_0_ITEMAMT] => 800
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [L_PAYMENTREQUEST_0_NAME0] => MARINADA DE ACHIOTE - 500 ml
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_QTY0] => 10
+    [L_PAYMENTREQUEST_0_AMT0] => 80
+    [L_PAYMENTREQUEST_0_NAME1] => Line Item Amount Offset
+    [L_PAYMENTREQUEST_0_DESC1] => Adjust cart calculation discrepancy
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 0
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+03-13-2018 @ 13:19:43 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-2JV46152C13474129
+    [TIMESTAMP] => 2018-03-13T19:19:43Z
+    [CORRELATIONID] => 91216df4a95cd
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 43953382
+)
+
+03-14-2018 @ 18:43:21 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => gavillapp_api1.gmail.com
+    [PWD] => ABC8XF6UXTBKHPDD
+    [SIGNATURE] => ACYKXf0jeJEY0Ip2tB5IuLDrHwEqAeTAySRhgfua3d7Ei2L0aJT6nQeK
+)
+
+03-14-2018 @ 18:43:22 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 5GP4KDPWVAFZE
+    [LOCALE] => es_XC
+    [TIMESTAMP] => 2018-03-15T00:43:22Z
+    [CORRELATIONID] => 879250fc40c4e
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 39949200
+)
+
