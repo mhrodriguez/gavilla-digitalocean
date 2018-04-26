@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<title>{keyword}</title>
+<style>
+input,textarea{font-family:Verdana;border:1 outset rgb(236,183,104);}
+</style>
+</head>
+<body bgcolor=#FCF9F3>
+<basefont size=2 face=verdana>
+<div style='padding:10px 0;'><span rbslot="all_wap_top_horizontal" block="7285"></span>
+<!-- Яндекс.Директ -->
+<div id="yandex_ad_top"></div>
+</div>
+<br>
+<div style='padding:10px 0;'><span rbslot="all_wap_top_horizontal" block="7285"></span>
+<!-- Яндекс.Директ -->
+<div id="yandex_ad_top"></div>
+ 
+</div><br><div align=center style='background-color:#FFECD9'><h1>{keyword}</h1></div><br>
+<b>{manytext_bing}</b> <br><br>
+
+<div style='padding:10px 0;'><span rbslot="all_wap_bottom_horizontal" block="7284"></span>
+<!-- Яндекс.Директ -->
+<div id="yandex_ad_bottom"></div>
+ 
+</div><br><br> полная версия страницы <br><br></body>
+</html>

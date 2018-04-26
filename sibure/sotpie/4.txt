@@ -1,0 +1,336 @@
+
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <link rel="SHORTCUT ICON" href="/images/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+            <meta name="description"
+                content="{keyword}"/>
+        <meta name="keywords"
+                content="{keyword}"/>
+        <title>{keyword}</title>
+    <style type="text/css">
+        body {
+        margin: 0px auto;
+        font-weight: normal;
+        font-size: 15px;
+        color: #000000;
+        font-family: arial;
+        background-color: #FFFFFF;
+        max-width:500px;
+        border: 1px solid #C6C6C6;
+        text-align: left;
+    }
+
+    a {
+        color: #DA251C;
+        text-decoration: underline;
+            }
+
+    img {
+        border: 0px none;
+        vertical-align: middle;
+        max-width: 99%;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #ff2c21;
+    }
+
+    a.buy_button, button.buy_button {
+        background-color: #ab1f17;
+        border-radius: 5px;
+        display: block;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none !important;
+        margin-bottom: 5px;
+        color: #FFFFFF;
+    }
+
+    button.buy_button {
+        border: none;
+        width: 100%;
+    }
+
+    a.buy_button:hover, button.buy_button:hover {
+        background-color: #CC4477;
+        color: white;
+    }
+
+    .mbk_cront {
+        padding: 5px;
+        padding-left: 5px;
+        color: #FFFFFF;
+        background-color: #000000;
+    }
+
+    .header, .footer {
+        color: #000000;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .footer a {
+        color: #000000;
+    }
+
+    .sub {
+        background-color: #F0F0F0;
+        color: #000000;
+        font-weight: bold;
+        text-align: left;
+        padding: 2px;
+        padding-left: 5px;
+        border-top: 1px solid #000000;
+
+    }
+
+    .red {
+        color: #DA251C;
+    }
+
+    .white {
+        color: #000000;
+    }
+
+    .black {
+        color: #000000;
+    }
+
+    .poster {
+        border: 2px solid #C6C6C6;
+    }
+
+    input.subm, input[type="submit"], .subm {
+        background-color: #DA251C;
+        border: 1px solid #000000;
+        color: #FFFFFF;
+        padding: 0px 2px 0px 2px;
+    }
+
+    div.hr {
+        border-bottom: 1px dotted #F0F0F0;
+        margin-right: -3px;
+        margin-left: -3px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table td,
+    table th {
+        margin: 0px; /* cellspacing */
+        padding: 5px; /* cellpadding */
+    }
+
+    fieldset {
+        border: 0;
+        /* border-bottom:1px dotted #F0F0F0; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .simka_menu {
+        background-color: #F0F0F0;
+        color: #000000;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        vertical-align: middle;
+        text-align: right;
+        padding-right: 2px;
+    }
+
+    .simka_menu a {
+        color: #DA251C;
+    }
+
+    .simka_menu img {
+        vertical-align: middle;
+    }
+
+    div.error_msg {
+        background-color: #FC5656;
+        padding: 5px;
+        border: 1px solid #c4140f;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    div.top_notice {
+        background-color: #95ffc0;
+        padding: 5px;
+        border: 1px solid #039734;
+        color: #127824;
+        font-weight: bold;
+    }
+
+    .item {
+        padding: 0 5px;
+        color: #FFFFFF;
+        background-color: #0a0a0a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #2d2d2d;
+    }
+
+    .pad3 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    a.block {
+        padding: 3px 0;
+        text-decoration: none;
+        display: block;
+    }
+
+    a.block:hover
+    {
+        text-decoration: none;
+    }
+
+    img.i_block {
+        padding-right: 5px;
+    }
+
+    span.text {
+        color: #FFFFFF;
+    }
+
+    .a_r {
+        background: #0a0a0a url('/images/arrow_r.png') right center no-repeat;
+        padding-right: 10px;
+    }
+
+    .cur_pointer {
+        cursor: pointer;
+    }
+
+    .pages {
+        text-align: center;
+        background-color: #0a0a0a;
+        padding: 3px 0;
+    }
+
+    .pages a, .pages b {
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1px solid #DA251C;
+        border-radius: 3px 3px 3px 3px;
+        padding: 3px 6px;
+        vertical-align: middle;
+        margin: 2px;
+    }
+
+    .pages b {
+        border: 1px solid #F4FEFF;
+        background-color: #F4FEFF;
+        color: #0a0a0a;
+    }
+
+    
+    </style>
+
+     
+    
+        </head>
+<body>
+    <div class="simka_menu" style="text-align:right"> <img src="/images/auth_icons/16/mbk.png" alt=" " />  </div>
+    <div class="header">
+        
+</div>
+            <!-- body/putin/ma/mgid -->
+        
+    <div class="sub" style="text-align:center">{keyword}</div>
+
+<div class="item">{manytext_bing}</div>
+
+    <div class="sub"> 
+        <b> </b>     </div>
+
+
+<div class="item"> <span class="text"></span> </div>    <div class="sub"><img src="images/sub.gif" alt=" "/> </div>
+
+    <div class="item cur_pointer" onclick="location.href='info.php?id=18661';">
+        <table width="auto">
+            <tr>
+                <td>
+                    <img class="poster" src="/posters/39/a6/18661/18661_small.jpg" alt=" "/> 
+                </td>
+                <td>
+                                         <b> </b></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="item cur_pointer" onclick="location.href='info.php?id=43289';">
+        <table width="auto">
+            <tr>
+                <td>
+                    <img class="poster" src="/posters/37/8a/43289/43289_small.jpg" alt=" "/> 
+                </td>
+                <td>
+                                        <b> 018)</b>
+                                                            <br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="item cur_pointer" onclick="location.href='info.php?id=43951';">
+        <table width="auto">
+            <tr>
+                <td>
+                     <img class="poster" src="/posters/1f/c3/43951/43951_small.jpg" alt=" "/> 
+                </td>
+                <td>
+                                        <b> ериал)</b>
+                                                            <br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+            <div class="item">
+             
+        </div>
+            <!-- body/putin/ma/mgid -->
+        
+    <div class="sub"> </div>
+    
+
+    <div class="item"> </div>
+            
+
+    
+    <div class="footer">
+        <b>&copy; MOB<span class="red">KINO</span>.ORG</b> 2010-2018
+                <br/>
+
+        
+<!--0.01675 sec.-->
+<!--(c)oded by NoX-->
+    </div>
+
+    
+    
+
+
+    
+    
+        <div id="omfgcf8fe67b3e50"></div>
+     
+    
+    </body>
+    </html>
+    

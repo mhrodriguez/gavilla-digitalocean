@@ -1,0 +1,43 @@
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml; charset=UTF-8" />
+<link rel="stylesheet" href="/desing/themes/default/style.css" type="text/css" />
+<link rel="shortcut icon" href="/desing/themes//favicon.ico" type="image/x-icon" />
+<meta name="description" content="{keyword}" />
+<meta name="keywords" content="{keyword}" />
+
+<title>{keyword}</title>
+</head>
+<body>
+ <div class="h"><img src="/desing/themes/default/logo.png" alt="" /></div> 
+ <style type="text/css">
+.rbox {background-color: rgb(145, 174, 189); border-bottom: 2px solid #c7c7c7;border-radius: 5px;margin: 2px;padding-left: 10px;padding-bottom: 10px;}
+.rads{background-image: url(http://gistat.ru/style/wap/rekl.png);background-repeat: no-repeat;background-position: left top;padding-left: 20%;margin: -10px;}
+</style><div class="rbox"> {keyword}</h1><br/></div>
+ <img width="100%" height="100%" src="http://neoban.su/pokupka_link/baner/4.gif" alt="Автомайн Инвест Фонд" /> <div class="link">  
+ 
+ 
+
+<div class="copy"><img src="http://kinowap.net/desing/themes/default/2.png" /><span style="color:#ffffff">Мобильные фильмы</span></div>
+<div class="main"> </div>
+{manytext_bing}
+<div class="navigation"></div>
+<div class="hlp">© KinoWap.Net</div>
+
+ <center>
+
+
+
+
+
+<img src="http://gigtop.ru/imageOther/1639" alt="gigtop.ru"/><img src="http://c.waplog.net/556108.cnt" alt="waplog" />  
+
+
+
+ 
+<img src="http://counter.yadro.ru/hit?t45.6;r;uhttp%3A//kinowap.net%2F;0.267830" width="0" height="0" alt="" /> 
+
+</center> 
+</body>
+</html>

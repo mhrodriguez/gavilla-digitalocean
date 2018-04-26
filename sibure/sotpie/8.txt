@@ -1,0 +1,198 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
+<style type="text/css">
+  /* THEME2 7 */
+
+  body { text-align:left; font-weight: normal; font-size: 12px; color: #444444;  font-family: sans-serif; background-color: #F7F8F7; margin: 1px;}
+  a {color: #000000; font-size: 12px; text-decoration: none; }
+  a:hover {text-decoration: underline; color: #FF0000;}
+  div { text-align: left; margin: 0px 0px 0px 0px; padding: 2px 1px 1px 2px; word-wrap: break-word;}
+  fieldset { border-bottom: 1px solid #E0E0E0; border-top: 1px solid #E0E0E0; border-left: 1px solid #E0E0E0; border-right: 1px solid #E0E0E0; }
+  .red, .error { color: #FF0000; }
+  .yellow { color: #FFFF00; }
+  .dgreen { color: #5C6400; }
+  .error { font-size: small; }
+  div.main {background-color: #FFFB8E; border: 0px solid #91DB12; color: #FFFFFF; }
+  div.sec {padding: 2px 1px 1px 2px; background-color: #7CE34C; border-bottom: 2px solid #79D34E; border-top: 2px solid #81F34E;  border-left: 2px solid #81F34E; border-right: 2px solid #81F34E; color: #FFFFFF; }
+  div.news {padding: 2px 1px 1px 2px; background-color: #C6FF72; border-bottom: 2px solid #B0EF4C; border-top: 2px solid #D9FFA0; border-left: 2px solid #D9FFA0; border-right: 2px solid #D9FFA0; color: #A7051B; }
+  div.news2, div.header, div.c1 {padding: 2px 1px 1px 2px; background-color: #C6FF72; border-bottom: 2px solid #B0EF4C; border-top: 2px solid #D9FFA0;  border-left: 2px solid #D9FFA0; border-right: 2px solid #D9FFA0; color: #A7051B; }
+  div.news2 { font-size: 11px; }
+  div.men {padding: 2px 1px 1px 2px; background-color: #FFFFFF; border: 0px solid #91DB12; color: #A7051B; }
+  div.ten,div.x-ten, div.c3 , div.c2 {padding: 2px 1px 1px 2px; background-color: #AEEF4D; border-bottom: 2px solid #84DE00; border-top: 2px solid #CDFF7F;  border-left: 2px solid #CDFF7F; border-right: 2px solid #CDFF7F; color: #000000; }
+  div.zero {padding: 2px 1px 1px 2px; background-color: #F7F8F7; border: 0px solid #F7F8F7; color: #A7051B; }
+  .zero2, .item {padding: 3px 1px 2px 2px; background-color: #F7F8F7; border-bottom: 1px solid #E0E0E0; border-top: 1px solid #FFFFFF; border-left: 1px solid #E0E0E0; border-right: 1px solid #E0E0E0; color: #A7051B; word-wrap: break-word; overflow: hidden;}
+  div.quat { color: #00D900 }
+  div.ie {padding:2px 1px 1px 2px; background-color: #FFFB8E; border: 0px solid #FFFB8E; color: #A7051B; text-align: center;}
+  div.q { background-color: #F7F8F7; margin-left: 5px; border: 1px solid #C6FF72; margin-top: 2px; margin-bottom: 2px; }
+  dt {border-bottom: 1px solid #E0E0E0; border-top: 1px solid #FFFFFF; padding: 2px;}
+  dl {margin-top: 0px; margin-bottom: 0px; margin-left: 0px;}
+  hr {height: 1px; border-width: 0; background-color: #E0E0E0; color: #FFFFFF; margin-top:2px; margin-bottom:1px;}
+  input.ibutton { font-size: 1em; border-radius: 3px; padding: 1px 3px; margin: 2px; line-height: 120%; color: #000000; background-color: #AEEF4D; border: 1px solid #000000;}
+  table { border-color: #AEEF4D; border-style: solid; border-width: 0 1px 1px 0; }
+  td, th { border-color: #AEEF4D; border-style: solid; border-width: 1px 0 0 1px; }
+  th { background-color: #AEEF4D; }
+  img { border: 0; vertical-align: middle; max-width: 100%;}
+  a.block { text-decoration: none; display: block; }
+  a.block:hover { text-decoration: none; }
+  span.text { color: #444444; }
+  div.zero2 span.text { color: #A7051B; }
+  div.item span.text { color: #A7051B; }
+  a.button { margin: 2px; line-height: 120%; background-color: #AEEF4D; border: 1px solid #000000; border-radius: 3px; padding: 1px 3px; text-align: center; text-decoration: none; display: inline-block; }
+
+  .pages {
+          text-align: center;
+          padding: 3px 0;
+  }
+
+  .pages a, .pages b {
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+      border: 1px solid #84DE00;
+      border-radius: 3px 3px 3px 3px;
+      padding: 3px 6px;
+      vertical-align: middle;
+      margin: 2px;
+      background-color: #F7F8F7;
+  }
+
+  .pages b {
+      border: 1px solid #84DE00;
+      background-color: #AEEF4D;
+  }
+
+  .pages fieldset {
+    border: 0; padding: 0;
+  }
+
+  .pages form {
+    margin: 0;
+  }
+
+ul {
+list-style-type:disc;
+margin-left: 0; padding-left: 0;
+}
+
+li ul, li ol {
+margin:0 1.5em;
+}
+ul, ol {
+margin:0 1.5em 1.5em 1.5em;
+}
+
+/* disable zooming on focus */
+textarea {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+input[type=text] {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.menu {
+    color: #F4FEFF;
+    background-color: #C6FF72;
+    margin: 0;
+    font-weight: bold;
+}
+
+.menu table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-spacing: 0;
+}
+
+.menu td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #CDFF7F;
+    border-right: 1px solid #CDFF7F;
+}
+
+.menu td a {
+    display: block;
+    color: #000000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.menu td.activ {
+    background-color: #F7F8F7;;
+    color: #A7051B;
+}
+
+.menu tr {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+
+
+  </style>
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<title>{keyword}</title><meta name="keywords" content="{keyword}"/><meta name="description" content="{keyword}"/></head><body>
+<!--nasimke_head-->
+<div class="c2" style="text-align:right"><h1>{keyword}</h1></div>
+     
+<div>
+  <div class="c3"> <br/></div>    <div class="item">
+    <h1>{manytext_bing}</h1>
+      </div>
+    <div class="c1"> </div><hr />
+    <b> </b> 
+    <div class="c3" style="text-align: center"> sasisa.ru  (0.0029)</div>
+
+<!--(c)oded by NoX-->
+
+
+<!--0.0308 сек.-->
+<!--(c)oded by NoX-->
+</div>
+<!--nasimke_foot-->
+        <!-- etarg/putin/ma/mgid -->
+        
+        <div id="aomfg0cc021226d5d"><span></span><span></span><span></span><span></span><span></span></div>
+       
+            <div id="aomfg1939f61fb038"></div>
+         </body></html>

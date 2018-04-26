@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "httphttp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru">
+<meta http-equiv="Content-Type" content="text/html;charset=Windows-1251">
+<head>
+<title>{keyword}</title>
+<meta name="generator" content="vBulletin 3.8.0">
+<meta name="keywords" content="{keyword}">
+<meta name="description" content="{keyword}">
+<link rel="stylesheet" type="text/css" href="http://katrabel.by/ckfinder/plugins/flashupload/flash/temp_override/images/style.css">
+<link rel="shortcut icon" href="http://katrabel.by/ckfinder/plugins/flashupload/flash/temp_override/images/favicon.ico">
+ 
+</head>
+<body>
+<div id="main">
+<div id="ipbwrapper">
+<div class="borderwrap">
+  <div id="logostrip">
+    <img src="http://katrabel.by/ckfinder/plugins/flashupload/flash/temp_override/images/logo.png" style="vertical-align:top" alt="Форум по мобильным, играм, приложениям и виджетам для android, ios, symbian, windows." border="0"> </div>
+<div id="submenu"></div></div>
+<div id="content">
+ <h1>&nbsp;</h1>
+ <img src="http://postironic.org/wp-content/uploads/2009/12/Murphy-8.jpg" align="center" alt="фильм на телефон 640х360"><br />
+ 
+</div><table class="ipbtable" cellspacing="0">
+  <tr>
+    <td nowrap="nowrap"><h1>{keyword}</h1></td>
+    <td style="padding-left:0px" width="40%" valign="middle" nowrap="nowrap">&nbsp;</td>
+    <td class="nopad" style="padding:0px 0px 5px 0px" align="right" width="60%" valign="middle">&nbsp;</td>
+  </tr>
+</table>
+<div class="borderwrap">
+  <div class="maintitle" style="padding:4px">
+    <table width="100%" style="padding:0px" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="99%" style="word-wrap:break-word;"><img src="http://katrabel.by/ckfinder/plugins/flashupload/flash/temp_override/images/nav_m000.gif" border="0"  alt="&gt;" width="8" height="8" />{manytext_bing}</td>
+        <td width="1%" align="right" nowrap="nowrap"><div class="popmenubutton"></div></td>
+        <td width="1%" align="right" nowrap="nowrap"></td>
+      </tr>
+    </table>
+  </div>
+ 
+  <div class="barc">
+    <div style="float: right; padding: 5px 5px 0 0;"><strong>«</strong>  Предыдущая тема Следующая тема  <strong>»</strong></div>
+    <form action="#" method="post" name="search">
+      <input type="hidden" name="forums" value="79" />
+      <input type="hidden" name="topic" value="47156" />
+      <input type="hidden" name="act" value="Search" />
+      <input type="hidden" name="CODE" value="searchtopic" />
+      <input type="text" size="25" name="keywords" class="searchinput" value="Введите ключевое слово" onfocus="this.value = "";">
+      &nbsp;
+      <input type="submit" value="Искать в теме" class="button" />
+    </form>
+</div>
+</div>
+<br />
+<table class="ipbtable" cellspacing="0">
+  <tr>
+    <td style="padding-left:0px" width="30%" nowrap="nowrap" valign="middle">&nbsp;</td>
+    <td class="nopad" style="padding:5px 0px 5px 0px" align="right" width="70%"><img src="http://katrabel.by/ckfinder/plugins/flashupload/flash/temp_override/images/t_closed.gif" border="0" alt="Тема закрыта"></td>
+  </tr>
+</table>
+<div class="borderwrap" style="padding-bottom:1px;">
+  <div class="formsubtitle" style="padding: 4px;">Статистика форума</div>
+</div>
+<br />
+<br />
+<table cellspacing="0" id="gfooter">
+  <tr>
+    <td width="100%" align="center" nowrap="nowrap"><div align="right"></div></td>
+  </tr>
+</table>
+<div align="center">
+<!--LiveInternet counter--> <!--/LiveInternet-->
+</div>
+<div align="center" class="copyright"> Invision Power Board © 2014 &nbsp;IPS, Inc. </div>
+</div>
+</body>
+</html>

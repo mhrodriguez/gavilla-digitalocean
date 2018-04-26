@@ -1,0 +1,83 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>{keyword}</title>
+<link href="/design/seawave/styles.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0"> 
+<table width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFCC66">
+<tr>
+<td colspan="5" bgcolor="#FFCC66">
+	<br></td></tr><tr><td width="66%" valign="top" bgcolor="#FFFF99">
+<table class="PrDetail"><tr>
+<td valign="top">
+  <h2>{keyword}</h2>
+<div style='color:silver;'><b>{manytext_bing}</b></div>
+
+
+</td>
+    <td width="1%" valign="top" bgcolor="#FFFF99"> </td>
+    <td width="16%" valign="top">
+
+     <table width="172" border="0" cellspacing="0" cellpadding="0" style="margin:4px;"><tr>
+<td>
+
+       <p style="margin-top: 0; margin-bottom: 0">
+
+       <!--Правое меню-->
+       </p>
+<table cellspacing="0" cellpadding="0" class="vMenuTbl">
+<tr class="vMenuHtr"><td>
+<div class="vMenuHImg"><img src="/design/seawave/img/hm-login.gif" align="middle" width="11" height="9"></div>Вход</td></tr>
+<tr><td><center>
+<form action="/cat29/" method="POST" style="margin:5px;">
+<input type="hidden" name="user_enter" value="1"><input type="hidden" name="view" value="login"><p style="margin-top: 0; margin-bottom: 0">Логин<br><input type="text" name="username" size="12"><br>Пароль<br><input type="password" name="password" size="12"></p>
+<p style="margin-top: 0; margin-bottom: 0"> </p>
+<p style="margin-top: 0; margin-bottom: 0"><input type="image" src="/design/seawave/img/enter.gif" border="0" alt="Вход" class="submitimg1"></p>
+</form> 
+</center></td></tr>
+</table>
+<br><p style="margin-top: 0; margin-bottom: 0">
+
+       </p>
+ 
+<br>
+<table cellspacing="0" cellpadding="0" class="vMenuTbl">
+<tr class="vMenuHtr"><td>
+<div class="vMenuHImg"><img src="/design/seawave/img/vm-new_products.gif" align="middle" width="15" height="9"></div></td></tr>
+<tr>
+  <td><table cellspacing="0" cellpadding="0" class="NewProdTbl">
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+</table></td></tr>
+</table>
+<br><!--END OF Правое меню-->
+</td>
+      </tr></table>
+</td>
+  </tr>
+<tr>
+<td valign="top" colspan="5" bgcolor="#FFCC66" align="center" style="background-repeat: repeat-x;" height="23">
+<table border="0" width="100%" id="table2" cellspacing="0" cellpadding="0" height="23"><tr>
+<td align="center" style="border-top: 1px solid #800080" width="122">		</td>
+		<td align="center" style="border-top: 1px solid #800080" width="216"> 		</td>
+		<td align="center" style="border-top: 1px solid #800080"> </td>
+		<td align="center" style="border-top: 1px solid #800080"> </td>
+		<td align="center" style="border-top: 1px solid #800080" width="118"> </td>
+		<td align="center" style="border-top: 1px solid #800080" width="104">
+		 
+</td>
+		<td align="center" style="border-top: 1px solid #800080" width="96"> </td>
+	</tr></table>
+</td>
+  </tr>
+</table>
+ 
+</body>
+</html>

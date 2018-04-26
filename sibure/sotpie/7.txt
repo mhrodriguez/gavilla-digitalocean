@@ -1,0 +1,394 @@
+
+<html>
+<head>
+<title>{keyword}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta name="description" content="{keyword}" />
+<meta name="keywords" content="{keyword}" />
+<meta name="robots" content="all" />
+<link rel="SHORTCUT ICON" href="http://gsmnet.ru/favicon.ico">
+<style type="text/css" media="all">
+@import url(/templates/Default/css/style.css);
+
+.hr_line {
+	background: url(/new/templates/Default/images/line.gif);
+	width: 100%;
+	height: 7px;
+	font-size: 3px;
+	font-family: tahoma;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+</style>
+<style type="text/css" media="all">
+@import url(/templates/avi/css/engine.css);
+</style>
+
+</head>
+<body>
+
+<div align="center">
+	<table width="1000" height="100%">
+		<!-- MSTableType="layout" -->
+		<tr>
+		<td width="1000" height="120" background="/templates/avi/images/header.jpg" align="center" colspan="3" valign="top">
+		<h1>&nbsp;</h1>
+	<!--  	{banner_header}-->
+		</td>
+			</tr>
+		<tr>
+			<td valign="top" width="175" height="25" align="center" background="/templates/avi/images/header2.jpg">&nbsp;
+			</td>
+<td width="650" class="slink" valign="top" rowspan="2" align="center" height="100%">
+<center>
+ 
+</center>
+<!--  
+{banner_yandex}-->
+<h2>  <br>
+</h2><center><form method="post" class="form_s" onSubmit="javascript: showBusyLayer()"> <font face="Tahoma" color="blue"> </font>   
+    <input name="story" type="text" style="width:150px; height:18px; font-family:tahoma; font-size:11px;border:1px solid #000000;">
+        <input type="image" src="/templates/avi/images/search.gif" width="40" 
+height="18" name="submit2" border="0" alt=" Фильмы avi скачать" align="absmiddle"></form>
+</center>       
+<div id='dle-content'><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">
+		<center><font color="#E34000"><h1>{keyword}</h1></font></center></td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">
+		<hr width="99%" noshade color="#6785DB" size="1"><center><div id='news-id-4345'>{manytext_bing}</div></center> 
+		 </td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%"><hr width="99%" noshade color="#6785DB" size="1"></td>
+        <td class="slink" align="center" width="80%"><b> <font color="#0000FF"> </font> </b></td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">
+		<center></center></td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">
+		<center></center></td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18">&nbsp;</td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18">&nbsp;</td>
+    </tr>
+</table><table width="97%">
+        <tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/1.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top.gif" width="1139" colspan="2"></td>
+        <td width="18"><img border="0" src="/templates/avi/images/2.gif" width="18" height="18"></td>
+    </tr>
+		<tr>
+        <td width="18" background="/templates/avi/images/left.gif" rowspan="3">&nbsp;</td>
+        <td width="100%" colspan="2">&nbsp;</td>
+        <td width="18" background="/templates/avi/images/right.gif" rowspan="3">&nbsp;</td>
+    </tr>
+        <tr>
+        <td width="100%" colspan="2">&nbsp;</td>
+        	</tr>
+			<tr>
+        <td class="slink" align="center" width="20%">&nbsp;</td>
+        <td class="slink" align="center" width="80%">&nbsp;</td>
+        	</tr>
+        <td width="18" height="18">
+		<img border="0" src="/templates/avi/images/3.gif" width="18" height="18"></td>
+        <td height="18" background="/templates/avi/images/top2.gif" width="1139" colspan="2">&nbsp;</td>
+        <td width="18"><img border="0" src="/templates/avi/images/4.gif" width="18" height="18"></td>
+    </tr>
+</table></div>
+<br>
+
+</td>
+     <td width="175" height="25" valign="top" align="center" background="/templates/avi/images/header3.jpg">
+     
+     </td>
+			</tr>
+		<tr>
+			<td valign="top" width="175" height="100%">&nbsp;</td>
+     <td class="right" width="175" valign="top" height="100%" style="border:1px solid #FF0000; ">
+     <br>
+.
+</td><td>
+          <form method=post name="vote_result" action=''>
+          <input type="hidden" name="vote_action" value="results">
+          <input type="hidden" name="vote_id" value="1">
+          <input type="submit" onClick="doVote('results'); return false;" class="bbcodes" value="Рез-ты">
+          </form>
+         </td></tr>
+         </table><br />
+
+</div><br><br><br>
+<noindex>
+<center>
+<!-- HotLog -->
+ <img
+src="http://hit8.hotlog.ru/cgi-bin/hotlog/count?s=189186&amp;im=68" border="0"
+alt="HotLog"> 
+</noscript>
+<!-- /HotLog -->
+</center>
+</noindex>
+
+     </td>
+			</tr>
+		<tr>
+			<td width="1000" colspan="3" height="40" align="center" valign="top">
+			<hr width="99%" noshade color="#6785DB" size="1">&copy; 2004-2013
+
+</td>
+		</tr>
+	</table>
+ 
+<div id="loading-layer" style="display:none;font-family: Verdana;font-size: 11px;width:200px;height:50px;background:#FFF;padding:10px;text-align:center;border:1px solid #000"><div style="font-weight:bold" id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div><br /><img src="/engine/ajax/loading.gif"  border="0" alt="" /></div>
+<div id="busy_layer" style="visibility: hidden; display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-color: gray; opacity: 0.1; filter: alpha(opacity=10); "></div>
+
+ 

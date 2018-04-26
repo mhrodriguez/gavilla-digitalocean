@@ -33,9 +33,13 @@ function wc_template_redirect() {
 		wp_redirect( wc_get_page_permalink( 'cart' ) );
 		exit;
 
-	} elseif ( isset( $wp->query_vars['customer-logout'] ) && ! empty( $_REQUEST['_wpnonce'] ) && wp_verify_nonce( $_REQUEST['_wpnonce'], 'customer-logout' ) ) {
+	} elseif (
+		isset( $wp->query_vars['customer-logout'] ) &&
+		! empty( $_REQUEST['_wpnonce'] ) &&
+		wp_verify_nonce( sanitize_key( $_REQUEST['_wpnonce'] ), 'customer-logout' )
+	) {
 
-		// Logout
+		// Logout.
 		wp_redirect( str_replace( '&amp;', '&', wp_logout_url( wc_get_page_permalink( 'myaccount' ) ) ) );
 		exit;
 
@@ -181,7 +185,7 @@ function wc_products_rss_feed() {
 
 		if ( $term ) {
 			$feed = add_query_arg( 'product_cat', $term->slug, get_post_type_archive_feed_link( 'product' ) );
-			echo '<link rel="alternate" type="application/rss+xml"  title="' . sprintf( esc_attr__( 'New products added to %s', 'woocommerce' ), $term->name ) . '" href="' . esc_url( $feed ) . '" />';
+			echo '<link rel="alternate" type="application/rss+xml"  title="' . esc_attr( sprintf( __( 'New products added to %s', 'woocommerce' ), $term->name ) ) . '" href="' . esc_url( $feed ) . '" />';
 		}
 	} elseif ( is_tax( 'product_tag' ) ) {
 
@@ -627,10 +631,10 @@ if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
 		?>
 		<h2 class="woocommerce-loop-category__title">
 			<?php
-				echo $category->name;
+			echo esc_html( $category->name );
 
 				if ( $category->count > 0 ) {
-					echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">(' . $category->count . ')</mark>', $category );
+                  		echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">(' . esc_html( $category->count ) . ')</mark>', $category ); // WPCS: XSS ok.
 				}
 			?>
 		</h2>
@@ -641,7 +645,7 @@ if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
  * Insert the opening anchor tag for products in the loop.
  */
 function woocommerce_template_loop_product_link_open() {
-	echo '<a href="' . get_the_permalink() . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+	echo '<a href="' . esc_url( get_the_permalink() ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
 }
 /**
  * Insert the opening anchor tag for products in the loop.
@@ -656,7 +660,7 @@ function woocommerce_template_loop_product_link_close() {
  * @param int|object|string $category
  */
 function woocommerce_template_loop_category_link_open( $category ) {
-	echo '<a href="' . get_term_link( $category, 'product_cat' ) . '">';
+	echo '<a href="' . esc_url( get_term_link( $category, 'product_cat' ) ) . '">';
 }
 /**
  * Insert the closing anchor tag for categories in the loop.
@@ -675,7 +679,7 @@ if ( ! function_exists( 'woocommerce_taxonomy_archive_description' ) ) {
 		if ( is_product_taxonomy() && 0 === absint( get_query_var( 'paged' ) ) ) {
 			$description = wc_format_content( term_description() );
 			if ( $description ) {
-				echo '<div class="term-description">' . $description . '</div>';
+				echo '<div class="term-description">' . wp_kses_post($description) . '</div>';
 			}
 		}
 	}
@@ -698,7 +702,7 @@ if ( ! function_exists( 'woocommerce_product_archive_description' ) ) {
 			if ( $shop_page ) {
 				$description = wc_format_content( $shop_page->post_content );
 				if ( $description ) {
-					echo '<div class="page-description">' . $description . '</div>';
+					echo '<div class="page-description">' . wp_kses_post($description) . '</div>';
 				}
 			}
 		}
@@ -825,7 +829,7 @@ if ( ! function_exists( 'woocommerce_catalog_ordering' ) ) {
 			return;
 		}
 
-		$orderby                 = isset( $_GET['orderby'] ) ? wc_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
+		$orderby                 = isset( $_GET['orderby'] ) ? wc_clean( wp_unslash( $_GET['orderby'] ) ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
 		$show_default_orderby    = 'menu_order' === apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
 		$catalog_orderby_options = apply_filters( 'woocommerce_catalog_orderby', array(
 			'menu_order' => __( 'Default sorting', 'woocommerce' ),
@@ -1778,7 +1782,7 @@ if ( ! function_exists( 'woocommerce_product_subcategories' ) ) {
 		}
 
 		if ( $product_categories ) {
-			echo $before;
+			echo wp_kses_post( $before );
 
 			foreach ( $product_categories as $category ) {
 				wc_get_template( 'content-product_cat.php', array(
@@ -1809,7 +1813,7 @@ if ( ! function_exists( 'woocommerce_product_subcategories' ) ) {
 				$wp_query->max_num_pages = 0;
 			}
 
-			echo $after;
+			echo wp_kses_post( $after );
 
 			return true;
 		}
@@ -2661,5 +2665,5 @@ function wc_logout_url( $redirect = '' ) {
  * @since 3.1.0
  */
 function wc_empty_cart_message() {
-	echo '<p class="cart-empty">' . apply_filters( 'wc_empty_cart_message', __( 'Your cart is currently empty.', 'woocommerce' ) ) . '</p>';
+	echo '<p class="cart-empty">' . wp_kses_post( apply_filters( 'wc_empty_cart_message', __( 'Your cart is currently empty.', 'woocommerce' ) ) ) . '</p>';
 }

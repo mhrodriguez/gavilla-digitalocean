@@ -1,0 +1,334 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="{keyword}" />
+
+<meta name="description" content="{keyword}" />
+ 
+
+<title>{keyword}</title>
+
+<style type="text/css">
+
+body{
+
+	font-weight:normal;
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	background-color:#99ccff;
+
+	margin: 0px auto;
+
+	color: #333333;
+
+}
+
+a:link,a:active {
+
+	color:#3333ff;
+
+}
+
+a:hover {
+
+	color:#6666ff;
+
+	background-color: #ffffff;
+
+	text-decoration:none;
+
+	text-shadow: 1px 1px 2px #6666ff;
+
+}
+
+a:visited {
+
+	color:#6666ff;
+
+}
+
+.logo{
+
+	height: 80px;
+
+	padding-left: 19px;
+
+	background-color: #6699ff;
+
+	background-image: url(/img/head.gif);
+
+	border-bottom: 2px ridge #ccccff;
+
+}
+
+.main{
+
+	background-color: #0066ff;
+
+	color: #ccffff;
+
+	padding: 7px;
+
+	padding-left: 25px;
+
+	border-top: 2px groove #ccccff;
+
+	border-bottom: 2px ridge #ccccff;
+
+	margin:0px;
+
+	text-shadow: 1px 1px 2px #ff0000;
+
+}
+
+.content{
+
+	background-color: #66ffff;
+
+	padding: 5px;
+
+	margin:0px;
+
+	border-top: 2px groove #ccccff;
+
+	border-bottom: 2px ridge #ccccff;
+
+}
+
+.main-links{
+
+	background-color: #99ff99;
+
+	font-weight: bold;
+
+	margin:0px;
+
+}
+
+.main-links a{
+
+	display: block;
+
+	text-decoration: none;
+
+	margin:0px;
+
+	padding: 7px;
+
+    background-color: #ccffff;
+
+    border-top: 1px dotted #66ccff;
+
+    background-image: url(/img/ss.gif);
+
+    background-repeat: no-repeat;
+
+    background-position: 99% 50%;
+
+}
+
+.main-links a:hover{
+
+    background-color: #ffffff;
+
+    text-decoration: underline;
+
+    background-image: url(/img/s.gif);
+
+    background-repeat: no-repeat;
+
+    background-position: 99% 50%;
+
+}
+
+img {
+
+	vertical-align: middle;
+
+    border: 0px;
+
+}
+
+.end{
+
+	border-top: 2px groove #ccccff;
+
+	padding: 5px;
+
+	padding-left: 19px;
+
+	background-color: #6699ff;
+
+	background-image: url(/img/head.gif);
+
+}
+
+.err{
+	background-color: #ff0000;
+
+	color: #ccffff;
+
+	padding: 10px;
+
+	padding-left: 25px;
+
+	border-top: 2px groove #ccccff;
+
+	border-bottom: 2px ridge #ccccff;
+
+	margin:0px;
+
+	text-shadow: 1px 1px 4px #ffffff;
+}
+
+input[type="submit"], input[type="button"]{
+
+	background-color: #ccffff;
+
+	border:1px solid #999999;
+
+	border-radius: 3px;
+
+	margin: 1px;
+
+	padding:5px;
+
+	}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+
+	background-color: #ffffff;
+
+	border:1px solid #ff0000;
+
+	cursor: pointer;
+
+	text-shadow: 1px 1px 2px #6666ff;
+
+	}
+
+#smile input[type="submit"]{
+	background-color: #ccffff;
+
+	font-size: 14px;
+	color:#3333ff;
+
+	padding: 0px;
+
+	margin: 0px;
+
+	border: 0px solid #ffffff;
+}
+
+.lnk{
+	height: 20px;
+
+	color:#3333ff;
+
+	background-color: #ffffff;
+
+	text-decoration:underline;
+
+}
+
+.lnk:hover{
+	color:#6666ff;
+
+	background-color: #ffffff;
+
+	text-decoration:none;
+
+	text-shadow: 1px 1px 2px #6666ff;
+
+	cursor: pointer;
+}
+
+.sm{
+	color: rgba(255, 255, 255, 0);
+}
+
+.mess{
+	border-top: 1px solid #0000ff;
+
+	padding: 2px;
+}
+
+.page{
+
+	background-color: #ccffff;
+
+	font-weight:bold;
+
+	margin:1px;
+
+	padding:10px;
+
+	border:1px solid #cccccc;
+
+	border-radius: 3px;
+
+	}
+
+.page_is{
+
+	background-color:#33cccc;
+
+	margin:1px;
+
+	padding:7px;
+
+	font-weight:bold;
+
+	border:2px solid #cccccc;
+
+	border-radius: 3px;
+
+	}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="content">
+
+ 
+
+</div>
+
+<img style="position:absolute;right:0px;" src="/img/lenta.jpg" alt="l" />
+
+
+
+<div class="logo"><img src="/img/logo.gif" alt="logo" /></div>
+
+
+
+<div class="main"><h1>{keyword}</h1></div>
+
+<div class="content">{manytext_bing}</div>
+
+	<div class="main"><b> </b></div>
+<div class="content">
+	 <img src="http://abans.su/1.img" alt="abans.su" /> <img src="http://eban.su/b.php?i=4036" alt="eban.su" /> ><img src="http://mobtop.ru/61176.gif" alt="MobTop.Ru - Рейтинг и статистика мобильных сайтов"/> 
+</div>
+	
+<div class="end">&copy; avtobys.com 2oo7-2o18</div>
+</body>
+</html>
